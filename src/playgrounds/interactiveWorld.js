@@ -17,8 +17,18 @@ class Playground extends Component{
 
 
 
-    constructor(renderer) {
-        super();
+    constructor(props) {
+        super(props);
+
+        this.animate = this.animate.bind(this)
+
+
+        if (module.hot) {
+            // If hot reloading, stop events
+            module.hot.dispose(() => {
+                this.stopped = true
+            })
+        }
 
         this.mouse = new THREE.Vector2();
         this.raycaster = new THREE.Raycaster();
@@ -26,12 +36,6 @@ class Playground extends Component{
 
 
         const distance = 1000;
-
-        // Update the renderer
-        this.renderer = renderer
-        this.renderer.setClearColor(0x0000, 1)
-        this.renderer.setSize(window.innerWidth, window.innerHeight)
-
         // Make a camera
         this.camera = new PerspectiveCamera(30, window.innerWidth / window.innerHeight, 1, 10000)
         this.camera.position.z = distance;
@@ -87,28 +91,62 @@ class Playground extends Component{
             this.addData(this.data[i][1], {name: this.data[i][0]});
         }
 
-        // Add controls so you can navigate the scene
-        this.controls = new TrackballControls(this.camera, this.renderer.domElement)
-        //this.controls.rotateSpeed = 1.0;
-        //this.controls.zoomSpeed = 1.2;
-        //this.controls.panSpeed = 0.8;
-        //this.controls.noZoom = false;
-        //this.controls.noPan = false;
-        //this.controls.staticMoving = true;
-        //this.controls.dynamicDampingFactor = 0.3;
 
 
 
         this.scene.add(this.camera);
 
 
+
+    }
+    componentDidMount(){
+
+        this.renderer= new THREE.WebGLRenderer({antialias: true})
+        // Update the renderer
+        //this.renderer = this.props.renderer
+        //this.renderer = renderer
+        this.renderer.setClearColor(0x0000, 1)
+        this.renderer.setSize(window.innerWidth, window.innerHeight)
+        this.mount.appendChild(this.renderer.domElement)
+
+        console.log(this.renderer.domElement)
+        console.log(this.camera)
+        // Add controls so you can navigate the scene
+        this.controls = new TrackballControls(this.camera, this.renderer.domElement)
+
+
         // Resize things when the window resizes
         window.addEventListener('resize', this.onResize.bind(this))
         this.renderer.domElement.addEventListener('mousemove', this.onMouseMove.bind(this), false);
-        this.renderer.domElement.addEventListener('mousedown', this.onMouseDown.bind(this), false);
+        //this.renderer.domElement.addEventListener('mousedown', this.onMouseDown.bind(this), false);
 
         //document.addEventListener('mousemove', this.onMouseMove(this), false);
+        //this.renderer.domElement.addEventListener('mousedown', this.onMouseDown.bind(this), false);
+
+
+
+
+
+
+        this.start()
+
     }
+    start = () => {
+        if (!this.frameId) {
+            this.frameId = requestAnimationFrame(this.animate)
+        }
+    }
+    stop = () => {
+        cancelAnimationFrame(this.frameId)
+    }
+    animate = () => {
+
+        this.frameId = window.requestAnimationFrame(this.animate)
+
+        this.controls.update()
+        this.renderer.render(this.scene, this.camera)
+    }
+
 
     onResize() {
         // Update the camera's aspect ratio and the renderer's size
@@ -117,23 +155,19 @@ class Playground extends Component{
         this.renderer.setSize(window.innerWidth, window.innerHeight)
     }
 
-    loop() {
 
-        // Updates the trackball controls
-        this.controls.update()
+    render () {
 
-        // Renders the scene
-        this.renderer.render(this.scene, this.camera)
-    }
-
-    render() {
-        const {onChangedSelectedBp} = this.props;
 
         return (
-            <div>
-                <canvas id='canvas'>Description</canvas>
-            </div>);
+            <div
+                style={{ width: '400px', height: '400px' }}
+                ref={(mount) => { this.mount = mount }}
+            />        )
+
     }
+
+
 
     colorFn(x) {
 
@@ -148,26 +182,26 @@ class Playground extends Component{
         step = 5;
 
 
-       // if (this._baseGeometry === undefined) {
+        // if (this._baseGeometry === undefined) {
 
-            this._baseGeometry = new Geometry();
-            for (let i = 0; i < data.length; i += step) {
-                lat = data[i];
-                lng = data[i + 1];
-                size = data[i + 2];
-                //id = data[i + 3];
-                color = new Color(0.0, 1.0, 1.0);
+        this._baseGeometry = new Geometry();
+        for (let i = 0; i < data.length; i += step) {
+            lat = data[i];
+            lng = data[i + 1];
+            size = data[i + 2];
+            //id = data[i + 3];
+            color = new Color(0.0, 1.0, 1.0);
 
-                //color = this.colorFn(data[i + 2]);
+            //color = this.colorFn(data[i + 2]);
 
-                size = 1;
-                var point = this.createPoint(lat, lng, color, name);
-                this.groupOfPoints.add(point);
+            size = 1;
+            var point = this.createPoint(lat, lng, color, name);
+            this.groupOfPoints.add(point);
 
 
-            }
-            this.pointCubes.push(this.groupOfPoints)
-            this.scene.add(this.groupOfPoints);
+        }
+        this.pointCubes.push(this.groupOfPoints)
+        this.scene.add(this.groupOfPoints);
 
         //}
 
@@ -217,26 +251,15 @@ class Playground extends Component{
             const selectedBpId = intersects[0].object.name;
             console.log(selectedBpId);
 
-            this.props.onChangedSelectedBp(this.props.selectedBpId);
+            this.props.onChangeSelectedBp(selectedBpId.name);
         }
-
-
-        this.mouse.set(event.clientX,event.clientY);
 
     }
 
     onMouseDown(event) {
         event.preventDefault();
 
-        document.addEventListener( 'mousemove', this.onMouseMove.bind(this), false );
-        document.addEventListener( 'mouseup', this.onMouseUp.bind(this), false );
-        document.addEventListener( 'mouseout', this.onMouseOut.bind(this), false );
 
-        this.mouseXOnMouseDown = event.clientX - this.windowHalfX;
-        this.targetRotationOnMouseDownX = this.targetRotationX;
-
-        this.mouseYOnMouseDown = event.clientY - this.windowHalfY;
-        this.targetRotationOnMouseDownY = this.targetRotationY;
     }
 
     onMouseUp( event ) {
@@ -252,6 +275,7 @@ class Playground extends Component{
         document.removeEventListener( 'mouseup', this.onMouseUp.bind(this), false );
         document.removeEventListener( 'mouseout', this.onMouseOut.bind(this), false );
     }
+
 
 
 

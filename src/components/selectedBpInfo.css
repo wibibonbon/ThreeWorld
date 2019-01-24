@@ -1,6 +1,25 @@
 #info {
+    color: #ffffff;
     position: absolute;
     top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display:block;
+}
+#info2 {
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display:block;
+}
+#info3 {
+    color: #ffffff;
+    position: absolute;
+    top: 90px;
     width: 100%;
     text-align: center;
     z-index: 100;
