@@ -1,0 +1,63 @@
+{
+  "producer_account_name": "caleosblocks",
+  "org": {
+    "candidate_name": "CalEOS",
+    "website": "https://caleos.io",
+    "code_of_conduct": "https://caleos.io/#conduct",
+    "ownership_disclosure": "https://caleos.io/ownership.json",
+    "email": "info@caleos.io",
+    "phone": "+18313181884",
+    "branding": {
+      "logo_256": "https://caleos.io/images/caleos_black.png",
+      "caleos_white_png": "https://caleos.io/images/caleos_white.png",
+      "logo_svg": "https://caleos.io/images/caleos_black.svg",
+      "caleos_white_svg": "https://caleos.io/images/caleos_white.svg"
+    },
+    "location": {
+      "name": "California",
+      "country": "US",
+      "latitude": 36.972323,
+      "longitude": -122.024017
+    },
+    "social": {
+      "twitter": "@caleosio",
+      "medium": "@caleosio",
+      "github": "CALEOS",
+      "telegram": "CalEOS",
+      "facebook": "caleos.io",
+      "steemit": "@caleosio"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "San Jose",
+        "country": "US",
+        "latitude": 37.334174,
+        "longitude": -121.891759
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "San Jose",
+        "country": "US",
+        "latitude": 37.334174,
+        "longitude": -121.891759
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "telos.caleos.io:9880"
+    },
+    {
+      "location": {
+        "name": "San Jose",
+        "country": "US",
+        "latitude": 37.334174,
+        "longitude": -121.891759
+      },
+      "node_type": "full",
+      "api_endpoint": "http://telos.caleos.io",
+      "ssl_endpoint": "https://telos.caleos.io"
+    }
+  ]
+}

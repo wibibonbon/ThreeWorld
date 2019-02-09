@@ -1,0 +1,119 @@
+{
+"producer_account_name": "telosglobal1",
+"producer_public_key": "EOS8NQHTk7xXG1rV3JmPDGdLyDt9eMKoAe2sxSA3K8M1uTrjNpjCL",
+"org": {
+"candidate_name": "TelosGlobal",
+"website": "https://telosglobal.io",
+"code_of_conduct": "https://telosglobal.io/compliance/",
+"ownership_disclosure": "https://telosglobal.io/compliance/",
+"email": "info@telosglobal.io",
+"branding": {
+"logo_256": "https://telosglobal.io/images/TelosGlobal_logo_256.png",
+"logo_1024": "https://telosglobal.io/images/TelosGlobal_logo_1024.png",
+"logo_svg": ""
+},
+"location": {
+"name": "Sacramento, CA",
+"country": "US",
+"latitude": 38.574,
+"longitude": -121.48
+},
+"social": {
+"steemit": "",
+"twitter": "@TelosGlobal",
+"youtube": "",
+"facebook": "",
+"github": "github.com/TelosGlobal",
+"reddit": "",
+"keybase": "",
+"telegram": "TelosGlobal",
+"wechat": ""
+}
+},
+"nodes": [
+{
+"location": {
+"name": "San Jose, CA",
+"country": "US",
+"latitude": 37.39,
+"longitude": -121.97
+},
+"node_type": "full",
+"p2p_endpoint": "http://node1.na.telosglobal.io:9876",
+"api_endpoint": "http://node1.na.telosglobal.io:8888",
+"ssl_endpoint": "https://node1.na.telosglobal.io:8899"
+},
+{
+"location": {
+"name": "San Jose, CA",
+"country": "US",
+"latitude": 37.39,
+"longitude": -121.97
+},
+"node_type": "full",
+"p2p_endpoint": "http://node2.na.telosglobal.io:9876",
+"api_endpoint": "http://node2.na.telosglobal.io:8888",
+"ssl_endpoint": "https://node1.na.telosglobal.io:8899"
+},
+{
+"location": {
+"name": "San Jose, CA",
+"country": "US",
+"latitude": 37.39,
+"longitude": -121.97
+},
+"node_type": "producer",
+"p2p_endpoint": "",
+"api_endpoint": "",
+"ssl_endpoint": ""
+},
+{
+"location": {
+"name": "Singapore",
+"country": "SG",
+"latitude": 1.30,
+"longitude": 103.63
+},
+"node_type": "full",
+"p2p_endpoint": "http://node1.apac.telosglobal.io:9876",
+"api_endpoint": "http://node1.apac.telosglobal.io:8888",
+"ssl_endpoint": "https://node1.apac.telosglobal.io:8899"
+},
+{
+"location": {
+"name": "Singapore",
+"country": "SG",
+"latitude": 1.30,
+"longitude": 103.63
+},
+"node_type": "full",
+"p2p_endpoint": "http://node2.apac.telosglobal.io:9876",
+"api_endpoint": "http://node2.apac.telosglobal.io:8888",
+"ssl_endpoint": "https://node2.apac.telosglobal.io:8899"
+},
+{
+"location": {
+"name": "Frankfurt, HE",
+"country": "DE",
+"latitude": 50.10,
+"longitude": 8.66
+},
+"node_type": "full",
+"p2p_endpoint": "http://node1.emea.telosglobal.io:9876",
+"api_endpoint": "http://node1.emea.telosglobal.io:8888",
+"ssl_endpoint": "https://node1.emea.telosglobal.io:8899"
+},
+{
+"location": {
+"name": "Frankfurt, HE",
+"country": "DE",
+"latitude": 50.10,
+"longitude": 8.66
+},
+"node_type": "full",
+"p2p_endpoint": "http://node2.emea.telosglobal.io:9876",
+"api_endpoint": "http://node2.emea.telosglobal.io:8888",
+"ssl_endpoint": "https://node2.emea.telosglobal.io:8899"
+}
+]
+}

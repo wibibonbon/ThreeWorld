@@ -1,0 +1,61 @@
+
+{
+  "producer_account_name": "csxcommunity",
+  "producer_public_key": "Key: EOS8HsrWJ9omjmwt26fieagCM95f2dsT2CyWuFQSFbp4jR7KyrZPF",
+  "org": {
+    "candidate_name": "CSX Community",
+    "website": "http://telos.csx.io",
+    "code_of_conduct": "https://www.csx.io/constitution",
+    "ownership_disclosure": "https://www.csx.io/ownership",
+    "email": "info@csx.io",
+    "phone": "TF Registry",
+    "branding":{
+      "logo_256": "https://www.eosc.sx/images/eos_csx_logo256.png",
+      "logo_1024": "https://www.eosc.sx/images/eos_csx_logo1024.png",
+      "logo_svg":"https://www.eosc.sx/images/eos_csx_logo.svg"
+    },
+    "location": {
+      "name": "Cheyenne, Wyoming",
+      "country": "US",
+      "latitude": 41.133194, 
+      "longitude": -104.818778
+    },
+    "social": {
+      "steemit": "csx-eos",
+      "twitter": "CSXcorp",
+      "youtube": "UCNjucUvoiMqbVMc28-3BIMg",
+      "facebook": "CSXCorp",
+      "github":"EOS-CSX",
+      "reddit": "",
+      "keybase": "csx_corp",
+      "telegram": "eos-csx",
+      "wechat":"dphillippi"
+    }
+  },
+  "nodes": [
+{
+      "location": {
+        "name": "Nuremberg",
+        "country": "DE",
+        "latitude": 49.460983,
+        "longitude": 11.061869 
+      },
+      "node_type": "full",
+      "api_endpoint": "http://api.telos.csx.io:8787",
+      "ssl_endpoint": "https://api.telos.csx.io"
+    },
+    {
+      "location": {
+        "name": "Nuremberg",
+        "country": "DE",
+        "latitude": 49.460983,
+        "longitude": 11.061859
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telos.csx.io:9876"
+    }
+  ]
+}
+
+
+

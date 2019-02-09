@@ -1,0 +1,66 @@
+{
+  "producer_account_name": "eosvenezuela",
+  "producer_public_key": "Key: EOS7pUMws312EjWwCcyMvV8hJiN5DFePdxsCknTJsrthp1an2AZXu",
+  "org": {
+    "candidate_name": "EOS Venezuela",
+    "website": "https://www.eosvenezuela.io",
+    "code_of_conduct": "https://steemit.com/eos/@eosvenezuela/code-of-conduct-eos-venezuela",
+    "ownership_disclosure": "https://steemit.com/eos/@eosvenezuela/6w6rbg-eos-venezuela-ownership",
+    "email": "info@eosvenezuela.io",
+    "phone":"54-9-11-31922946",
+    "branding": {
+      "logo_256": "https://eosvenezuela.io/vnzlalogo_256.jpg",
+      "logo_1024": "https://eosvenezuela.io/vnzlalogo_1024.jpg",
+      "logo_svg": ""
+    },
+        "location": {
+        "name": "Venezuela",
+        "country": "VE",
+        "latitude": 5.1633,
+        "longitude": -69.4147
+    },
+    "social": {
+        "steemit": "eosvenezuela",
+        "twitter": "eosveneuela",
+        "youtube": "UCl_MU4HxTKu5lORbLEN9IIw",
+        "facebook": "groups/eosvenezuela",
+        "github": "eosvenezuela",
+        "reddit": "eosvenezuela",
+        "keybase": "eosvenezuela",
+        "telegram": "eosvenezuela",
+        "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+    "location": {
+          "name": "eosvenezuela",
+          "country": "VE",
+          "latitude": 5.1633,
+          "longitude": -69.4147
+      },
+      "node_type": "producer"
+    },
+    {
+         "location": {
+          "name": "eosvenezuela",
+          "country": "VE",
+          "latitude": 5.1633,
+          "longitude": -69.4147
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "149.28.110.250:9876"
+    },
+    {
+         "location": {
+          "name": "eosvenezuela",
+          "country": "VE",
+          "latitude": 5.1633,
+          "longitude": -69.4147
+      },
+      "node_type": "full",
+      "api_endpoint": "http://149.28.110.250:8888/",
+      "ssl_endpoint": ""
+    }
+  ]
+}

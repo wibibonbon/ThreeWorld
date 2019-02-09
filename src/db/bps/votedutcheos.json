@@ -1,0 +1,92 @@
+{
+  "producer_account_name": "votedutcheos",
+  "producer_public_key": "Key: EOS6s9fwhG1E8Z3WZFxHDhVZhgPfYzoJF8DvnMM7PX3jt3ZNVdpd4",
+  "org": {
+    "candidate_name": "DutchEOS",
+    "website": "https://dutcheos.io",
+    "code_of_conduct":"https://dutcheos.io/code-of-conduct/",
+    "ownership_disclosure":"https://dutcheos.io/ownership-disclosure/",
+    "email":"info@dutcheos.io",
+    "phone":"TF Registry",
+    "branding": {
+      "logo_256":"https://dutcheos.io/assets/dutcheos_256.png",
+      "logo_1024":"https://dutcheos.io/assets/dutcheos_1024.png",
+	  "logo_svg":"https://dutcheos.io/assets/dutcheos.svg"
+    },
+"location": {
+      "name": "Amsterdam",
+      "country": "NL",
+      "latitude": 52.3702,
+      "longitude": 4.8952
+    },
+  "social": {
+      "steemit": "eos-nl",
+      "twitter": "dutcheos",
+      "youtube": "UCxKIv72tH0eBKqQJfe51_2w",
+      "facebook": "",
+      "github": "DutchEOS",
+      "reddit": "DutchEOS",
+      "keybase": "dutcheos",
+      "telegram": "dutcheos",
+      "wechat":""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Full, Naaldwijk",
+        "country": "NL",
+        "latitude": 52.001225,
+        "longitude":4.2086303
+      },
+      "node_type": "full",
+      "p2p_endpoint": "p2p.telos.dutcheos.io:9876",
+      "api_endpoint": "http://api.telos.dutcheos.io",
+      "ssl_endpoint": "https://api.telos.dutcheos.io"
+    },
+    {
+      "location": {
+        "name": "Primary, Limburg an der Lahn",
+        "country": "DE",
+        "latitude": 50.4087327,
+        "longitude": 8.0624445
+      },
+     "node_type": "producer",
+     "is_producer": true
+    },
+	{
+      "location": {
+        "name": "Full (backup), Beauharnois",
+        "country": "CA",
+        "latitude": 45.309245,
+        "longitude": -73.8963713
+      },
+      "node_type": "full",
+      "p2p_endpoint": "p2p.telos.dutcheos.io:9876",
+      "api_endpoint": "http://api.telos.dutcheos.io",
+      "ssl_endpoint": "https://api.telos.dutcheos.io"
+    },
+	{
+      "location": {
+        "name": "Full, Gravelines",
+        "country": "FR",
+        "latitude": 50.9858,
+        "longitude": 2.1283
+      },
+      "node_type": "full",
+      "p2p_endpoint": "p2p.telos.dutcheos.io:9876",
+      "api_endpoint": "http://api.telos.dutcheos.io",
+      "ssl_endpoint": "https://api.telos.dutcheos.io"
+    },
+	{
+      "location": {
+        "name": "Secondary, Gravelines",
+        "country": "FR",
+        "latitude": 50.9858,
+        "longitude": 2.1283
+      },
+      "node_type": "producer",
+      "is_producer": true
+    }
+  ]
+}

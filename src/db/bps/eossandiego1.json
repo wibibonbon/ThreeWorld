@@ -1,0 +1,66 @@
+{
+  "producer_account_name": "eossandiego1",
+  "producer_public_key": "Key: EOS8Jug5NJM8bLAEnipPwy9HhvSy2knERLK5wve4r4Cdc18nJ9nJr",
+  "org": {
+    "candidate_name": "EOS-San Diego",
+    "website": "https://www.eossandiego.io/",
+    "code_of_conduct": "https://www.blockproducer.com/coc",
+    "ownership_disclosure": "https://www.eossandiego.io/ownership.json",
+    "email": "eossandiego@gmail.com",
+    "phone":"TF Registry",
+    "branding": {
+      "logo_256": "https://www.eossandiego.io/img/logo.png",
+      "logo_1024": "https://www.eossandiego.io/img/logo.png",
+      "logo_svg": "https://www.eossandiego.io/img/logo.png"
+    },
+    "location": {
+      "name": "San Diego",
+      "country": "US",
+      "latitude": 32.715736,
+      "longitude": -117.161087
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "eossandiego",
+      "youtube": "",
+      "facebook": "",
+      "github": "",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "https://t.me/eossandiego_group",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "San Diego",
+        "country": "US",
+        "latitude": 32.715736,
+        "longitude": -117.161087
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "San Diego",
+        "country": "US",
+        "latitude": 32.715736,
+        "longitude": -117.161087
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.eossandiego.io:9876"
+    },
+    {
+      "location": {
+        "name": "San Diego",
+        "country": "US",
+        "latitude": 32.715736,
+        "longitude": -117.161087
+      },
+      "node_type": "full",
+      "api_endpoint": "https://api.eossandiego.io/",
+      "ssl_endpoint": "https://api.eossandiego.io/"
+    }
+  ]
+}

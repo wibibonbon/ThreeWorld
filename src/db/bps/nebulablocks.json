@@ -1,0 +1,57 @@
+{
+  "producer_account_name": "nebulablocks",
+  "producer_public_key": "EOS59xrvESTgzoLHN7Cq6D7KX8tazr8FXTS4ZkZHD5qnqTCRXdGTG",
+  "org": {
+    "candidate_name": "Nebula Blocks",
+    "website": "https://bp.nebulaprotocol.com",
+    "code_of_conduct": "https://bp.nebulaprotocol.com",
+    "ownership_disclosure": "https://bp.nebulaprotocol.com",
+    "email": "bp@nebulaprotocol.com",
+    "phone": "TF Registry",
+    "branding": {
+      "logo_256": "https://raw.githubusercontent.com/eoscafe/eos-airdrops/master/logos/nebula.png",
+      "logo_1024": "https://raw.githubusercontent.com/eoscafe/eos-airdrops/master/logos/nebula-lg.png",
+      "logo_svg": "https://raw.githubusercontent.com/eoscafe/eos-airdrops/master/logos/nebula-lg.png"
+    },
+    "location": {
+      "name": "Estonia",
+      "country": "EE",
+      "latitude": 59.428569,
+      "longitude": 24.729193
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "https://twitter.com/nebulaprotocol",
+      "youtube": "",
+      "facebook": "",
+      "github": "https://github.com/nebulaprotocol",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "nebulaProtocol",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "API1",
+        "country": "FI",
+        "latitude": 60.3414808,
+        "longitude": 25.0285236
+      },
+      "node_type": "API",
+      "p2p_endpoint": "http://bp.api.nebulaprotocol.com:9876",
+      "api_endpoint": "http://bp.api.nebulaprotocol.com",
+      "ssl_endpoint": "https://bp-api.nebulaprotocol.com"
+    },
+    {
+      "location": {
+        "name": "BP1",
+        "country": "FI",
+        "latitude": 60.3414808,
+        "longitude": 25.0285236
+      },
+      "node_type": "producer"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "producer_account_name": "cryptosuviio",
+  "producer_public_key": "Key: EOS8XyVc6MNrtMRigjxNWdaK6bYoqXvddTbzPncnag6fyE7zi5fta",
+  "org": {
+    "candidate_name": "CRYPTOSUVI OSK",
+    "website": "http://cryptosuvi.io",
+    "code_of_conduct":"http://cryptosuvi.io",
+    "ownership_disclosure":"http://cryptosuvi.io",
+    "email":"osk@cryptosuvi.io",
+    "phone":"TF Registry",
+    "branding":{
+      "logo_256":"https://telos.cryptosuvi.io/ilves_full_256.png",
+      "logo_1024":"https://telos.cryptosuvi.io/ilves_full_1024.png",
+      "logo_svg":"https://telos.cryptosuvi.io/ilves_web.svg"
+    },
+    "location": {
+      "name": "Forssa",
+      "country": "FI",
+      "latitude": 60.813249,
+      "longitude": 23.620921
+    },
+    "social": {
+      "steemit": "cryptosuviio",
+      "twitter": "cryptosuviio",
+      "youtube": "",
+      "facebook": "",
+      "github":"cryptosuviio",
+      "reddit": "cryptosuviio",
+      "keybase": "",
+      "telegram": "cryptosuviio",
+      "wechat":""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Helsinki",
+        "country": "FI",
+        "latitude": 60.1698,
+        "longitude": 24.9383
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Nuremberg",
+        "country": "DE",
+        "latitude": 49.45421,
+        "longitude": 11.07752
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telos.cryptosuvi.io:2222"
+    },
+    {
+      "location": {
+        "name": "Nuremberg",
+        "country": "DE",
+        "latitude": 49.45421,
+        "longitude": 11.07752
+      },
+      "node_type": "full",
+      "api_endpoint": "http://telos.cryptosuvi.io",
+      "ssl_endpoint": "https://telos.cryptosuvi.io"
+    }
+  ]
+}

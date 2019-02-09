@@ -1,0 +1,63 @@
+{
+  "producer_account_name": "telosmiamibp",
+  "producer_public_key": "Key: EOS5XLH6TiPWtoAcBrT4B7Mx8WFKvTV4zWSz4aFP7r2vxvRPdCgR6",
+  "org": {
+    "candidate_name": "Telos Miami",
+    "website": "https://telos.miami",
+    "code_of_conduct": "https://telos.miami/about-us",
+    "ownership_disclosure": "https://telos.miami/about-us",
+    "email": "info@eos.miami",
+    "phone":"tf-registry",
+    "branding": {
+      "logo_256": "https://telos.miami/wp-content/uploads/2018/10/cropped-TelosMiamiv3_512.png",
+      "logo_1024": "https://telos.miami/wp-content/uploads/2018/10/cropped-TelosMiamiv3_512.png",
+      "logo_svg": "https://telos.miami/wp-content/uploads/2018/10/cropped-TelosMiamiv3_512.png"
+    },
+    "location": {
+      "name": "Miami",
+      "country": "US",
+      "latitude": 25.761681,
+      "longitude": -80.191788
+    },
+    "social": {
+      "steemit": "eosmiami",
+      "github":"eosmiami",
+      "facebook":"eosmiami",
+      "telegram": "eosmiami",
+      "keybase": "eosmiami",
+      "twitter": "eosmiami"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "San Francisco",
+        "country": "US",
+        "latitude": 37.7749,
+        "longitude": 122.4194
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "San Francisco",
+        "country": "US",
+        "latitude": 37.7749,
+        "longitude": 122.4194
+      },
+      "node_type": "testnet",
+      "p2p_endpoint": "testnet.eos.miami:9876"
+    },
+    {
+      "location": {
+        "name": "San Francisco",
+        "country": "US",
+        "latitude": 37.7749,
+        "longitude": 122.4194
+      },
+      "node_type": "full",
+      "api_endpoint": "https://api.eos.miami",
+      "p2p_endpoint": "p2p.eos.miami:13975"
+    }
+  ]
+}

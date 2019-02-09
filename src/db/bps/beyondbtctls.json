@@ -1,0 +1,66 @@
+{
+  "producer_account_name": "beyondbtctls",
+  "producer_public_key": "Key: EOS7KuyKJKTHPxyxCb11J6QKfxMYWxUZTqik3DJ5biGGVoWbQsTPn",
+  "org": {
+    "candidate_name": "Beyond Bitcoin BP, Series LLC",
+    "website": "http://telos.beyondbitcoin.io",
+    "code_of_conduct": "http://telos.beyondbitcoin.io/BBCOC.png",
+    "ownership_disclosure": "http://telos.beyondbitcoin.io/preview.png",
+    "email": "Beyondbitcoin@gmail.com",
+    "phone":" in a non-public, password protected, repository commonly accessible to any of the 51 paid Block Producers and Standbys",
+    "branding": {
+      "logo_256": "https://telos.beyondbitcoin.io/BBC-LOGO-256.png",
+      "logo_1024": "https://telos.beyondbitcoin.io/BBC-LOGO-1024.png",
+      "logo_svg": "https://telos.beyondbitcoin.io/BBC-LOGO.svg"
+    },
+    "location": {
+      "name": "USA",
+      "country": "US",
+      "latitude": 36.1627,
+      "longitude": 86.7816
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "",
+      "youtube": "",
+      "facebook": "",
+      "github": "@SahkanDesertHawk",
+      "reddit": "",
+      "keybase": "sahkan",
+      "telegram": "@SirFuzzalot",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Nuremberg",
+        "country": "DE",
+        "latitude": 49.4521,
+        "longitude": 11.0767
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Nuremberg",
+        "country": "DE",
+        "latitude": 49.4521,
+        "longitude": 11.0767
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "207.180.220.203:9876"
+    },
+    {
+      "location": {
+        "name": "Nuremberg",
+        "country": "DE",
+        "latitude": 49.4521,
+        "longitude": 11.0767
+      },
+      "node_type": "full",
+      "api_endpoint": "http://207.180.220.203:8888",
+      "ssl_endpoint": "https://telos.beyondbitcoin.io/api/"
+    }
+  ]
+}

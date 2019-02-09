@@ -1,0 +1,64 @@
+{
+    "producer_account_name": "teloscantons",
+    "producer_public_key": "Key: EOS69ECgLTUWXk31ZSxrpno88MFqxXTN8JRMZXHGrMNWH53kqA1ZH",
+    "org": {
+        "candidate_name": "Telos Canton",
+        "code_of_conduct": "https://www.teloscanton.io/en/code-of-conduct/",
+        "ownership_disclosure": "https://www.teloscanton.io/en/ownership-disclosure/",
+        "website": "https://teloscanton.io",
+        "email": "hello@teloscanton.io",
+        "phone": "+1-657-345-9739",
+        "branding": {
+            "logo_256": "https://teloscanton.io/images/logo_256x256.png",
+            "logo_1024": "https://teloscanton.io/images/logo_1024x1024.png",
+            "logo_svg": "https://teloscanton.io/images/logo_128x128.svg"
+        },
+        "location": {
+            "name": "Canton",
+            "country": "CN",
+            "latitude": 23.072399,
+            "longitude": 113.314467
+        },
+        "social": {
+            "steemit": "@TelosCanton",
+            "twitter": "@TelosCanton",
+            "github": "https://github.com/Telos-Canton",
+            "telegram": "@TelosCanton",
+            "wechat": "HelloTelosCanton"
+        }
+    },
+    "nodes": [
+        {
+            "location": {
+                "name": "HongKong",
+                "country": "CN",
+                "latitude": 22.20000,
+                "longitude": 114.10000
+            },
+            "node_type": "full",
+            "api_endpoint": "http://full.teloscanton.io",
+            "ssl_endpoint": "https://full.teloscanton.io"
+        },
+        {
+            "location": {
+                "name": "HongKong",
+                "country": "CN",
+                "latitude": 22.20000,
+                "longitude": 114.10000
+            },
+            "node_type": "seed",
+            "p2p_endpoint": "producer.teloscanton.io:5806"
+
+        },
+        {
+            "location": {
+                "name": "HongKong",
+                "country": "CN",
+                "latitude": 22.20000,
+                "longitude": 114.10000
+            },
+            "node_type": "producer"
+        }
+    ]
+
+}

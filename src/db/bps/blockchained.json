@@ -1,0 +1,65 @@
+{
+  "producer_account_name": "blockchained",
+  "producer_public_key": "EOS5TMcGtaUWjLG49oFFRdmXCoJo2mUSjQ2ccHWjU35HRwy5UaRMA",
+  "org": {
+    "candidate_name": "BLCKCHND",
+    "website": "https://telos.blckchnd.com",
+    "code_of_conduct": "",
+    "email": "admin@blckchnd.com",
+    "branding": {
+      "logo_256": "https://telos.blckchnd.com/blckchnd-256.png",
+      "logo_1024": "https://telos.blckchnd.com/blckchnd-1024.png",
+      "logo_svg": "https://telos.blckchnd.com/blckchnd.svg"
+    },
+    "location": {
+      "name": "St.Petersburg",
+      "country": "RU",
+      "latitude": 59.9343,
+      "longitude": 30.3351
+    },
+    "social": {
+      "steemit": "blockchained",
+      "twitter": "BLCKCHND",
+      "youtube": "",
+      "facebook": "",
+      "github": "blckchnd",
+      "reddit": "",
+      "keybase": "team/eos_blockchained",
+      "telegram": "blckchnd_EOS",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "EOSBLCKCHND",
+        "country": "DE",
+        "latitude": 51.2993,
+        "longitude": 9.491
+      },
+      "node_type": "full",
+      "api_endpoint": "http://api-telos.blckchnd.com",
+      "ssl_endpoint": "https://api-telos.blckchnd.com"
+    },
+    {
+      "location": {
+        "name": "EOSBLCKCHND",
+        "country": "DE",
+        "latitude": 51.2993,
+        "longitude": 9.491
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p-telos.blckchnd.com:19876",
+      "bnet_endpoint": "bnet-telos.blckchnd.com:4321"
+    },
+    {
+      "location": {
+        "name": "EOSBLCKCHND",
+        "country": "RU",
+        "latitude": 55.7558,
+        "longitude": 37.6173
+      },
+      "node_type": "producer"
+    }
+  ]
+}

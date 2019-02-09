@@ -1,0 +1,65 @@
+{
+  "producer_account_name": "telosgreenbp",
+  "producer_public_key": "Key: EOS71Jn2wt32tEru3xSaFjeMES2gXiXgGarmDeuotVUtM5Puf23b2",
+  "org": {
+    "candidate_name": "TelosGreen",
+    "website": "https://www.telosgreen.com/",
+    "code_of_conduct": "https://www.telosgreen.com/coc.html",
+    "ownership_disclosure": "https://www.telosgreen.com/ownership.html",
+    "email": "contact@telosgreen.com",
+    "branding": {
+      "logo_256": "https://www.telosgreen.com/images/logo_256x256.png",
+      "logo_1024": "https://www.telosgreen.com/images/logo_1024x1024.png",
+      "logo_svg": "https://www.telosgreen.com/images/logo_128x128.svg"
+    },
+    "location": {
+      "name": "Göteborg",
+      "country": "Sweden",
+      "latitude": 57.728435,
+      "longitude": 11.971045
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "eosgreen_io",
+      "youtube": "",
+      "facebook": "",
+      "github": "telosgreen",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "sukeshtedla",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Moncks Corner",
+        "country": "USA",
+        "latitude": 33.072602,
+        "longitude": -80.038865
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Moncks Corner",
+        "country": "USA",
+        "latitude": 33.072602,
+        "longitude": -80.038865
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telos.telosgreen.com:9876"
+    },
+    {
+      "location": {
+        "name": "Moncks Corner",
+        "country": "USA",
+        "latitude": 33.072602,
+        "longitude": -80.038865
+      },
+      "node_type": "full",
+      "api_endpoint": "https://api.telos.telosgreen.com",
+      "ssl_endpoint": "https://api.telos.telosgreen.com"
+    }
+  ]
+}

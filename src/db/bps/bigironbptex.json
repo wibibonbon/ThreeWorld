@@ -1,0 +1,45 @@
+{
+	"producer_account_name": "bigironbptex",
+	"org": {
+		"candidate_name": "Big Iron",
+		"website": "http://bigiron.io",
+		"code_of_conduct": " https://bigiron.io ",
+		"ownership_disclosure": "https://bigiron.io",
+		"email": "info@BigIron.io",
+		"phone": "TF Registry",
+		"branding": {
+			"logo_256": "https://www.eostheworld.io/logo.png"
+
+		},
+		"location": {
+			"name": "Waco",
+			"country": "US",
+			"latitude": 31.555117,
+			"longitude": -97.133556
+		},
+		"social": {
+			"twitter": "https://twitter.com/EOStheWorld",
+			"github": "https://github.com/eostheworld"
+		}
+	},
+	"nodes": [{
+			"location": {
+				"name": "Waco",
+				"country": "US",
+				"latitude": 31.555117,
+				"longitude": -97.133556
+			},
+			"p2p_endpoint": "149.28.254.141:9876",
+			"api_endpoint": "149.28.254.141:8888"
+		},
+		{
+			"location": {
+				"name": "Waco",
+				"country": "US",
+				"latitude": 31.555117,
+				"longitude": -97.133556
+			},
+			"node_type": "producer"
+		}
+	]
+}

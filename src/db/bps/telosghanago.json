@@ -1,0 +1,51 @@
+{
+  "producer_account_name": "telosghanago",
+  "org": {
+    "candidate_name": "Telos Ghana",
+    "website": "https://telosghana.co",
+    "code_of_conduct":"https://telosghana.co/#Code-of-Conduct",
+    "ownership_disclosure":"https://telosghana.co/#Ownership-Disclosure",
+    "email":"telosghanago@gmail.com",
+    "phone":"+234 814 197 8985",
+    "branding":{
+      "logo_256":"https://telosghana.co/tg3.png",
+      "logo_1024":"https://telosghana.co/tg3.png",
+      "logo_svg":""
+    },
+    "location": {
+      "name": "Africa",
+      "country": "GHA",
+      "latitude": -1.0307118,
+      "longitude": 7.9527706
+    },
+    "social": {
+      "twitter": "telosghana",
+      "github":"telosghana",
+      "medium": "telosghana",
+      "telegram": "telosghana"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "TA_BP1",
+        "country": "LTU",
+        "latitude": 55.1694,
+        "longitude": 23.8813
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "TA_API1",
+        "country": "LTU",
+        "latitude": 55.1694,
+        "longitude": 23.8813
+      },
+      "node_type": "API",
+      "p2p_endpoint": "https://telosghana.co:9876",
+      "api_endpoint": "http://telosghana.co/node",
+      "ssl_endpoint": "https://telosghana.co/node"
+    }
+  ]
+}

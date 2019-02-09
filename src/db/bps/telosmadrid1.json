@@ -1,0 +1,76 @@
+{
+  "producer_account_name":"telosmadrid1",
+  "org": {
+    "candidate_name":"Telos Madrid",
+    "website":"https://telosmadrid.io",
+    "code_of_conduct":"https://telosmadrid.io/#codeofconduct",
+    "ownership_disclosure":"https://telosmadrid.io/#ownership",
+    "email":"contact@telosmadrid.io",
+    "phone":"TF Registry",
+    "branding":{
+      "logo_256":"https://telosmadrid.io/images/logo_small.png",
+      "logo_1024":"https://telosmadrid.io/images/logo_high_resolution.png"
+    },
+    "location": {
+      "name": "Madrid",
+      "country": "ES",
+      "latitude": 40.420191, 
+      "longitude": -3.688714
+    },
+    "social": {
+      "telegram": "telosmadrid"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "FN1",
+        "country": "DE",
+        "latitude": 50.480042, 
+        "longitude": 12.333954
+      },
+      "node_type": "API",
+      "api_endpoint": "http://api.telosmadrid.io",
+      "ssl_endpoint": "https://api.telosmadrid.io"
+    },
+    {
+      "location": {
+        "name": "FN2",
+        "country": "DE",
+        "latitude": 50.480042, 
+        "longitude": 12.333954
+      },
+      "node_type": "API",
+      "api_endpoint": "http://api.telosmadrid.io",
+      "ssl_endpoint": "https://api.telosmadrid.io"
+    },
+    {
+      "location": {
+        "name": "SeedNode",
+        "country": "FI",
+        "latitude": 60.342099, 
+        "longitude": 25.029482
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "seed.telosmadrid.io:9876"
+    },
+    {
+      "location": {
+        "name": "BP1",
+        "country": "FI",
+        "latitude": 60.342099, 
+        "longitude": 25.029482      
+	  },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "BP2",
+        "country": "ES",
+        "latitude": 40.4172, 
+        "longitude": -3.6840      
+	  },
+      "node_type": "producer"
+    }
+  ]
+}

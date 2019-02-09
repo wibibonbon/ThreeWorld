@@ -1,0 +1,65 @@
+{
+  "producer_account_name": "telosnewyork",
+  "producer_public_key": "Key: EOS7uh28mPLSuLsaA9eyNoiLNwky4KDU7sxwfCg9NZcsPhdKxBB2f",
+  "org": {
+    "candidate_name": "Telos New York",
+    "website": "http://www.nytelos.com",
+    "code_of_conduct":"http://www.nytelos.com/conduct/",
+    "ownership_disclosure":"http://www.nytelos.com/ownership/",
+    "email":"info@nytelos.com",
+    "phone":"TF Registry",
+    "branding": {
+      "logo_256":"http://www.nytelos.com/telosnewyork-1024.png",
+      "logo_1024":"http://www.nytelos.com/telosnewyork-256.png",
+      "logo_svg":"http://www.nytelos.com/telosnewyork.svg"
+    },
+    "location": {
+      "name": "Palmas Del Mar",
+      "country": "US",
+      "latitude": 18.23750,
+      "longitude": -66.36916
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "telosnewyork",
+      "youtube": "UC7X_kAAv2xjWlXC-YQxJ-zg",
+      "facebook": "",
+      "github":"",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "telosnewyork",
+      "wechat":""
+    }
+  },
+  "nodes": [
+   {
+      "location": {
+        "name": "New Jersey",
+        "country": "US",
+        "latitude": 40.39288,
+        "longitude": -74.92810
+      },
+      "node_type": "full",
+      "api_endpoint": "http://api.nytelos.com",
+      "ssl_endpoint": "https://api.nytelos.com"
+    },
+    {
+      "location": {
+        "name": "New York",
+        "country": "US",
+        "latitude": 40.75161,
+        "longitude": -73.98040
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "New Jersey",
+        "country": "US",
+        "latitude": 40.39288,
+        "longitude": -74.92810
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.nytelos.com:8012"
+    }] 
+}

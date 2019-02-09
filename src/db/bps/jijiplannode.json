@@ -1,0 +1,66 @@
+{
+  "producer_account_name": "jijiplannode",
+  "producer_public_key": "Key: EOS5VZY7D94YqVyBWThoPLR5w7a7JScrnmpGvCKU2PzRtXPmVSSfd",
+  "org": {
+    "candidate_name": "JijiPlan",
+    "website": "https://jijiplan.com",
+    "code_of_conduct": "https://jijiplan.com#coc",
+    "ownership_disclosure": "https://jijiplan.com#coc",
+    "email": "apollosande@gmail.com",
+    "phone":"+254-729-223-416",
+    "branding": {
+      "logo_256": "https://jijiplan.com/images/logo_256x256.png",
+      "logo_1024": "https://jijiplan.com/images/logo_1024x1024.png",
+      "logo_svg": "https://jijiplan.com/images/logo_128x128.svg"
+    },
+    "location": {
+      "name": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2833,
+      "longitude": 36.8219
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "@jijiplan",
+      "youtube": "",
+      "facebook": "@jijiplan",
+      "github": "",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "jijiplan",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Nairobi",
+        "country": "Kenya",
+        "latitude": -1.2833,
+        "longitude": 36.8219
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Nairobi",
+        "country": "Kenya",
+        "latitude": -1.2833,
+        "longitude": 36.8219
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "197.234.238.72:9876"
+    },
+    {
+      "location": {
+        "name": "Nairobi",
+        "country": "Kenya",
+        "latitude": -1.2833,
+        "longitude": 36.8219
+      },
+      "node_type": "full",
+      "api_endpoint": "http://197.234.238.74:9888",
+      "ssl_endpoint": "http://197.234.238.74:9888"
+    }
+  ]
+}

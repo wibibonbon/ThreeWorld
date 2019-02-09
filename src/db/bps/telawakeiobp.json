@@ -1,0 +1,70 @@
+{
+  "producer_account_name": "telawakeiobp",
+  "producer_public_key": "Key: EOS7HjD87RMNuqujYbKi7YJrYqL4mX7xyAx26bn69DEYkUk21QooF",
+  "org": {
+    "candidate_name": "eosawake.io",
+    "website": "https://eosawake.io/",
+    "code_of_conduct": "https://eosawake.io/telos/coc.html",
+    "ownership_disclosure": "https://eosawake.io/telos/ownership.html",
+    "email": "lf187149719@gmail.com",
+    "phone": "TF Registry",
+    "branding": {
+      "logo_256": "https://eosawake.io/telos/logo_256x256.png",
+      "logo_1024": "https://eosawake.io/telos/logo_1024x1024.png",
+      "logo_svg": "https://eosawake.io/telos/logo_128x128.svg"
+    },
+    "location": {
+      "name": "Hong Kong",
+      "country": "HK",
+      "latitude": 22.2825,
+      "longitude": 114.162
+    },
+
+    "owner": {
+	    "name_owner":"eosawake","percentage":"100"
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "",
+      "youtube": "",
+      "facebook": "",
+      "github": "",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "@mynamebest",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Hong Kong",
+        "country": "HK",
+        "latitude": 22.2825,
+        "longitude": 114.162
+      },
+      "node_type": "producer",
+      "p2p_endpoint": "telosp2p.eosawake.io:9876",
+    },
+    {
+      "location": {
+        "name": "Hong Kong",
+        "country": "HK",
+        "latitude": 22.2825,
+        "longitude": 114.162
+      },
+      "node_type": "seed"
+    },
+    {
+      "location": {
+        "name": "Hong Kong",
+        "country": "HK",
+        "latitude": 22.2825,
+        "longitude": 114.162
+      },
+      "node_type": "full",
+      "api_endpoint": "telosapi.eosawake.io:8889",
+      "ssl_endpoint": "telosapi.eosawake.io:443"
+    }
+  ]
+}

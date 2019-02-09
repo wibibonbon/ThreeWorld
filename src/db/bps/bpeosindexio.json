@@ -1,0 +1,67 @@
+{
+  "producer_account_name": "bpeosindexio",
+  "producer_public_key": "EOS6ERqjRoWdMS99iVkuMvGKV8ZYX7wSK1QeG8oxgMfYcoYjxWct5",
+  "org": {
+    "candidate_name": "EOSindex",
+    "website": "https://telosindex.io",
+    "code_of_conduct": "https://bp.eosindex.io",
+    "ownership_disclosure": "https://bp.eosindex.io",
+    "email":"bp@eosindex.io",
+    "phone": "TF Registry",
+    "branding":{
+      "logo_256":"https://bp.eosindex.io/logos/eosindex_logo_square_256.png",
+      "logo_1024":"https://bp.eosindex.io/logos/eosindex_logo_square_1024.png",
+      "logo_svg":"https://bp.eosindex.io/logos/eosindex_logo_square.svg"
+    },
+    "location": {
+      "name": "Germany",
+      "country": "DE",
+      "latitude": 49.006889,
+      "longitude": 8.403653
+    },
+    "social": {
+      "steemit": "eosindex",
+      "twitter": "eosindex",
+      "youtube": "",
+      "facebook": "",
+      "github": "EOSindex",
+      "reddit": "eosindex",
+      "keybase": "eosindex",
+      "telegram": "eosindex",
+      "wechat":""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.47788,
+        "longitude": 12.37129
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "seed1.telos.eosindex.io:9876"
+    },
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.47788,
+        "longitude": 12.37129
+      },
+      "node_type": "query",
+      "api_endpoint": "http://api.telos.eosindex.io",
+      "ssl_endpoint": "https://api.telos.eosindex.io"
+    },
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.47788,
+        "longitude": 12.37129
+      },
+      "node_type": "producer"
+    }
+  ]
+}
+

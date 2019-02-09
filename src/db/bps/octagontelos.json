@@ -1,0 +1,65 @@
+{
+  "producer_account_name": "octagontelos",
+  "producer_public_key": "Key: EOS688gt4GZ7ExeBzn1Z78X9ug583WqVPGMtDdbfmfnVnGPb7yiKG",
+  "org": {
+    "candidate_name": "Octagon Labs",
+    "website": "https://octagonlabs.org/",
+    "code_of_conduct": "https://www.octagon.nl/about-us/",
+    "ownership_disclosure": "https://octagonlabs.org/about-us/",
+    "email": "labs@octagon.nl",
+    "phone":"TF-Registerred",
+    "branding": {
+      "logo_256": "https://octagonlabs.org/images/logo_256x256.png",
+      "logo_1024": "https://octagonlabs.org/images/logo_1024x1024.png",
+      "logo_svg": "https://octagonlabs.org/images/logo_128x128.svg"
+    },
+    "location": {
+      "name": "The Hague",
+      "country": "NL",
+      "latitude": 52.0833333,
+      "longitude": 4.3    },
+    "social": {
+      "steemit": "",
+      "twitter": "",
+      "youtube": "",
+      "facebook": "",
+      "github": "",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "London",
+        "country": "GB",
+        "latitude": 51.507351,
+        "longitude": -0.127758
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "London",
+        "country": "GB",
+        "latitude": 51.507351,
+        "longitude": -0.127758
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "telos.octagontlabs.net:9876"
+    },
+    {
+      "location": {
+        "name": "London",
+        "country": "GB",
+        "latitude": 51.507351,
+        "longitude": -0.127758
+      },
+      "node_type": "full",
+      "api_endpoint": "http://telos.octagonlabs.net",
+      "ssl_endpoint": "https://telos.octagonlabs.net"
+    }
+  ]
+}

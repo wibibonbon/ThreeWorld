@@ -1,0 +1,75 @@
+{
+  "producer_account_name": "blindblocart",
+  "producer_publik_key": "",
+  "org": {
+    "candidate_name": "BlindBlocArt",
+    "website": "https://www.blindblocart.io",
+    "code_of_conduct":"https://www.reddit.com/user/blindblocart/comments/9xha9n/code_of_conduct/",
+    "ownership_disclosure":"https://www.reddit.com/user/blindblocart/comments/9ulv7m/ownership_details_for_blindblocart/",
+    "email":"jerry@blindblocart.io",
+    "phone":"15104062536",
+    "branding":{
+      "logo_256":"https://www.blindblocart.io/images/BBA_logo_256.jpg",
+      "logo_1024":"https://www.blindblocart.io/images/BBA_logo_1024.jpg",
+      "logo_svg":""
+    },
+    "location": {
+      "name": "Office",
+      "country": "SC",
+      "latitude": "4.6796 S",
+      "longitude": "55.4920 E"
+    },
+    "owner": {
+	    "name_owner1":"Angela Palmer","percentage":"100"
+    },
+    "social": {
+      "steemit": "blindblocart",
+      "twitter": "blindblocart",
+      "youtube": "",
+      "facebook": "",
+      "github":"",
+      "reddit": "https://www.reddit.com/user/blindblocart",
+      "keybase": "eosiojerry",
+      "telegram": "",
+      "wechat":""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "API",
+        "country": "DE",
+        "latitude": "50.110924 ",
+        "longitude": "8.682127 "
+      },
+      "node_type": "full",
+      "p2p_endpoint": "p2p.blindblocart.io:9877",
+      "api_endpoint": "https://api.blindblocart.io",
+      "ssl_endpoint": "https://api.blindblocart.io"
+    },
+    {
+      "location": {
+        "name": "Seed",
+        "country": "SG",
+        "latitude": "1.290270",
+        "longitude": "103.851959"
+      },
+      "node_type":"seed",
+      "p2p_endpoint": "p2p.blindblocart.io:9877",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    },
+    {
+	"location":{
+	  "name": "Producer",
+	  "country": "US",
+	  "latitude":"41.881832",
+	  "longititude":"-87.623177"
+	},
+      "node_type":"producer",
+      "p2p_endpoint":"",
+      "api_endpoint":"",
+      "ssl_endpoint":""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "producer_account_name": "eosbarcelona",
+  "producer_public_key": "EOS7u9oCYhFSHTu8uHSFuZsk6Xzovu1X34RhYnSdf3bBUAgvj3J4y",
+  "org": {
+    "candidate_name": "eosBarcelona",
+    "website": "https://eos.barcelona/telos",
+    "ownership_disclosure": "https://medium.com/eosbarcelona/esobarcelona-november-2018-update-a921191b2aec",
+    "code_of_conduct": "https://medium.com/eosbarcelona/esobarcelona-november-2018-update-a921191b2aec",
+    "email": "contact@eos.barcelona",
+    "phone": "TF_Registry",
+    "branding": {
+      "logo_256": "https://eos.barcelona/eosLogo-256.png",
+      "logo_1024": "https://eos.barcelona/eosLogo-256.png",
+      "logo_svg": ""
+    },
+    "location": {
+      "name": "Barcelona",
+      "country": "ES",
+      "latitude": 41.3667,
+      "longitude": 2.0667
+    },
+    "social": {
+      "steemit": "jrosich",
+      "twitter": "eosbarcelona",
+      "youtube": "",
+      "facebook": "",
+      "github": "jrosich",
+      "reddit": "eosbarcelona",
+      "keybase": "eosbarcelona",
+      "telegram": "eosbarcelona",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Germany",
+        "country": "DE",
+        "latitude": 52.520008,
+        "longitude": 13.404954
+      },
+      "node_type": "full",
+      "p2p_endpoint": "78.46.100.24:9876",
+      "api_endpoint": "http://telos.eos.barcelona",
+      "ssl_endpoint": "https://telos.eos.barcelona"
+    },
+    {
+      "location": {
+        "name": "Germany",
+        "country": "DE",
+        "latitude": 52.520008,
+        "longitude": 13.404954
+      },
+      "node_type": "producer"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "producer_account_name": "eostribeprod",
+  "producer_public_key": "EOS5SCSeFbKSYsKoiAH8PKwWYbkzsJME5rs73gWbtEA4jPSSaJ1xJ",
+  "org": {
+    "candidate_name": "EOSTribe",
+    "website": "https://telos.eostribe.io",
+    "code_of_conduct":"https://steemit.com/cryptocurrency/@eostribe/eos-tribe-code-of-conduct",
+    "ownership_disclosure":"https://steemit.com/eos/@eostribe/eos-tribe-ownership-disclosure",
+    "email": "info@eostribe.io",
+    "branding":{
+      "logo_256":"https://s3.amazonaws.com/eostribe/eos-tribe-logo-square-256px.png",
+      "logo_1024":"https://s3.amazonaws.com/eostribe/eos-tribe-logo-square-1024px.png",
+      "logo_svg":"https://eostribe.io/images/logo.svg"
+    },
+    "location": {
+      "name": "Bluffdale,UT",
+      "country": "US",
+      "latitude": 40.458973,
+      "longitude": -111.918542
+    },
+    "social": {
+      "steemit": "eostribe",
+      "telegram": "@eostribe",
+      "wechat": "realeostribe",
+      "twitter": "eostribe",
+      "facebook": "groups/eostribe",
+      "reddit": "eostribeBP",
+      "keybase": "eostribe",
+      "telegram": "eostribe"
+    },
+    "support": {
+     "name": "Eugene.Luzgin",
+     "email": "eugene@eostribe.io"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Bluffdale,UT",
+        "country": "US",
+        "latitude": 40.458973,
+        "longitude": -111.918542
+      },
+      "node_type": "full",
+      "api_endpoint": "http://api.telos.eostribe.io",
+      "ssl_endpoint": "https://api.telos.eostribe.io"
+    },
+    {
+      "location": {
+        "name": "Bluffdale,UT",
+        "country": "US",
+        "latitude": 40.458973,
+        "longitude": -111.918542
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "api.telos.eostribe.io:7876",
+      "bnet_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "Bluffdale,UT",
+        "country": "US",
+        "latitude": 40.458973,
+        "longitude": -111.918542
+      },
+      "node_type": "producer",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "bnet_endpoint": "",
+      "ssl_endpoint": ""
+    }
+  ]
+}

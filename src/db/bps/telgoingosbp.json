@@ -1,0 +1,57 @@
+﻿{
+    "producer_account_name": "telgoingosbp",
+    "producer_public_key": "EOS6PsJhTNJGMyvephuTdG58MAoZq2JKTtk7M3nTRCikqfs735ZWQ",
+    "org": {
+        "candidate_name": "Telos GoingOS",
+        "website": "https://www.goingos.org",
+        "code_of_conduct": "https://m.weibo.cn/1597729894/4316522262579505",
+        "ownership_disclosure": "https://m.weibo.cn/1597729894/4316525529707017",
+        "email": "hello@goingos.org",
+        "phone": "TF Registry",
+        "branding": {
+            "logo_256": "https://www.goingos.org/images/logo_256x256.png",
+            "logo_1024": "https://www.goingos.org/images/logo_1024x1024.png"
+        },
+        "location": {
+            "name": "Hohhot",
+            "country": "CN",
+            "latitude": 40.80390,
+            "longitude": 111.66912
+        },
+        "social": {
+            "steemit": "",
+            "twitter": "",
+            "youtube": "aguangyc60@gmail.com",
+            "facebook": "",
+            "github": "goingos",
+            "reddit": "",
+            "keybase": "",
+            "telegram": "@Telgoingos",
+            "wechat": "Q381266259"
+        }
+    },
+    "nodes": [
+        {
+       "location": {
+            "name": "HangKang",
+            "country": "CN",
+            "latitude": 22.28025,
+            "longitude": 114.17304
+            },
+            "node_type": "mainnet",
+            "p2p_endpoint": "telosapi.goingos.org:9876",
+            "api_endpoint": "https://telosapi.goingos.org:8889"
+        },
+        {
+        "location": {
+            "name": "HangKang",
+            "country": "CN",
+            "latitude": 22.28025,
+            "longitude": 114.17304
+            },
+            "node_type": "testnet",
+            "p2p_endpoint": "testnet.goingos.org:9876",
+            "api_endpoint": "https://testnet.goingos.org:8889"
+     }
+    ]
+}

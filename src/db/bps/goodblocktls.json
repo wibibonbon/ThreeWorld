@@ -1,0 +1,64 @@
+{
+    "producer_account_name": "goodblocktls",
+    "producer_public_key": "EOS7GbbU4Kg5Yyi1aRFqHiCHRKAJ7ABSf1oHHzfcHuMGCwgJA1qWC",
+    "org": {
+        "candidate_name": "GoodBlock",
+        "website": "https://goodblock.io/block_producer",
+        "ownership_disclosure": "https://goodblock.io/block_producer",
+        "email": "stephanie@goodblock.io",
+        "phone": "TF_Registry",
+        "branding": {
+            "logo_256": "https://goodblock.io/images/GB_logo_256.jpg",
+            "logo_1024": "https://goodblock.io/images/GB_logo_1024.jpg",
+            "logo_svg": "https://goodblock.io/images/GB_logo_1024.svg"
+        },
+        "location": {
+            "name": "Seattle",
+            "country": "US",
+            "latitude": "48.0000",
+            "longitude": "-122.0000"
+        },
+        "social": {
+            "steemit": "",
+            "twitter": "https://twitter.com/goodblockio",
+            "youtube": "",
+            "facebook": "",
+            "github": "",
+            "reddit": "",
+            "keybase": "",
+            "telegram": "",
+            "wechat": ""
+        }
+    },
+    "nodes": [
+      {
+        "location": {
+          "name": "Seattle",
+          "country": "US",
+          "latitude": "48.0000",
+          "longitude": "-122.0000"
+        },
+        "node_type": "producer"
+      },
+      {
+        "location": {
+          "name": "Seattle",
+          "country": "US",
+          "latitude": "48.0000",
+          "longitude": "-122.0000"
+        },
+        "node_type": "full",
+        "api_endpoint": "http://api.tlos.goodblock.io",
+        "ssl_endpoint": "https://api.tlos.goodblock.io"
+      },
+      {
+        "location": {
+          "name": "Seattle",
+          "country": "US",
+          "latitude": "48.0000",
+          "longitude": "-122.0000"
+        },
+        "node_type": "seed",
+        "p2p_endpoint": "seed.tlos.goodblock.io:9876"
+      }]
+}

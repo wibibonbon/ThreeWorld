@@ -1,0 +1,64 @@
+{
+    "producer_account_name": "tlsvenezuela",
+    "org": {
+      "candidate_name": "Telos-Venezuela",
+      "website": "https://www.telosvenezuela.com/",
+      "code_of_conduct":"https://www.telosvenezuela.com/#conduct",
+      "ownership_disclosure":"https://www.telosvenezuela.com/ownership.json",
+      "email":"info@telosvenezuela.com",
+      "branding":{
+        "logo_256":"https://www.telosvenezuela.com/email/256x256_w.png",
+        "logo_1024":"https://www.telosvenezuela.com/email/1024x1024_w.png",
+        "logo_svg":"https://www.telosvenezuela.com/email/128x128_w.svg"
+      },
+      "location": {
+        "name": "Caracas",
+        "country": "Venezuela",
+          "latitude": 10.4896813,
+          "longitude": -66.9294377
+      },
+      "social": {
+        "steemit": "telosvenezuela",
+        "twitter": "telosvenezuela",
+        "youtube": "telosvenezuela",
+        "facebook": "",
+        "github":"telosvenezuela",
+        "reddit": "",
+        "keybase": "",
+        "telegram": "telosvenezuela",
+        "wechat":""
+      }
+    },
+   "nodes": [
+      {
+        "location": {
+          "name": "Washington",
+          "country": "US",
+          "latitude": 46.24564,
+          "longitude": -118.465422
+        },
+        "node_type": "producer"
+      },
+      {
+        "location": {
+          "name": "Washington",
+          "country": "US",
+          "latitude": 46.24564,
+          "longitude": -118.465422
+        },
+        "node_type":"seed",
+        "p2p_endpoint": "p2p.telosvenezuela.com:9876" 
+      },
+      {
+        "location": {
+          "name": "Washington",
+          "country": "US",
+          "latitude":46.24564,
+          "longitude": -118.465422
+        },
+        "node_type":"full",
+        "api_endpoint": "https://api.telosvenezuela.com/",
+        "ssl_endpoint": "https://api.telosvenezuela.com/"
+      }
+    ]
+  }

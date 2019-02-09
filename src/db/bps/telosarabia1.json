@@ -1,0 +1,50 @@
+{
+  "producer_account_name": "telosarabia1",
+  "org": {
+    "candidate_name": "TelosArabia",
+    "website": "https://telosarabia.net",
+    "code_of_conduct": "https://telosarabia.net/en/services",
+    "ownership_disclosure": "https://telosarabia.net/ownership.json",
+    "email": "info@telosarabia.net",
+    "phone": "+966507338865",
+    "branding": {
+      "logo_256": "https://telosarabia.net/logo.jpg",
+      "logo_1024": "https://telosarabia.net/logo.png"
+    },
+		"location": {
+			"name": "MENA Region",
+			"country": “MENA",
+			"latitude": 25.102951,
+			"longitude": 55.208450
+		},
+		"social": {
+			"steemit": "telosarabia",
+			"twitter": "Telosarabia",
+			"youtube": "",
+			"facebook": "",
+			"telegram": "Telos_Arabia"
+		}
+	},
+ "nodes": [{
+			"location": {
+				"name": "Munich",
+				"country": "DE",
+				"latitude": 11.5976072,
+				"longitude": 48.1040971
+			},
+			"node_type": "full",
+			 "p2p_endpoint": "p2p.telosarabia.net:9876",
+             "ssl_endpoint": "https://api.telosarabia.net"
+		},
+		{
+			"location": {
+				"name": "Munich",
+				"country": "DE",
+				"latitude": 11.5976072,
+				"longitude": 48.1040971
+			},
+			"node_type": "seed",
+			"p2p_endpoint": "p2p.telosarabia.net:9876"
+		}
+	]
+}

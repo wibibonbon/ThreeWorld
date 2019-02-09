@@ -1,0 +1,51 @@
+{
+  "producer_account_name": "telosafrica1",
+  "org": {
+    "candidate_name": "Telos Africa",
+    "website": "https://telosafrica.co",
+    "code_of_conduct":"https://telosafrica.co/coc",
+    "ownership_disclosure":"https://telosafrica.co/ownership",
+    "email":"telosafricaone@gmail.com",
+    "phone":"+234 816 496 5867",
+    "branding":{
+      "logo_256":"",
+      "logo_1024":"",
+      "logo_svg":""
+    },
+    "location": {
+      "name": "Africa",
+      "country": "NGA",
+      "latitude": -9.0820,
+      "longitude": 8.6753
+    },
+    "social": {
+      "twitter": "telosafrica",
+      "github":"telosafrica",
+      "medium": "telosafrica",
+      "telegram": "telosafrica"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "TA_BP1",
+        "country": "LTU",
+        "latitude": 55.1694,
+        "longitude": 23.8813
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "TA_API1",
+        "country": "LTU",
+        "latitude": 55.1694,
+        "longitude": 23.8813
+      },
+      "node_type": "API",
+      "p2p_endpoint": "https://telosafrica.co:9876",
+      "api_endpoint": "http://telosafrica.co/node",
+      "ssl_endpoint": "https://telosafrica.co/node"
+    }
+  ]
+}

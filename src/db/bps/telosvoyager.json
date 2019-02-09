@@ -1,0 +1,71 @@
+{
+  "producer_account_name": "telosvoyager",
+  "org": {
+    "candidate_name": "TelosVoyager",
+    "website": "http://telosvoyager.io",
+    "ownership_disclosure": "http://telosvoyager.io/ownership-disclosure.html",
+    "email": "info@telosvoyager.io",
+    "phone":"TF Registry",
+    "branding": {
+      "logo_256": "http://telosvoyager.io/img/brand_logo.png",
+      "logo_1024": "",
+      "logo_svg": ""
+    },
+    "location": {
+      "name": "Los Angeles, CA",
+      "country": "US",
+      "latitude": 34.105994,
+      "longitude": 117.597086
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "https://twitter.com/telosvoyager",
+      "youtube": "",
+      "facebook": "",
+      "github": "",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Los Angeles, CA",
+        "country": "US",
+        "latitude": 34.105994,
+        "longitude": 117.597086
+      },
+      "node_type": "full",
+      "p2p_endpoint": "",
+      "api_endpoint": "api.telosvoyager.io",
+      "ssl_endpoint": "api.telosvoyager.io"
+    },
+    {
+      "location": {
+        "name": "Los Angeles, CA",
+        "country": "US",
+        "latitude": 34.105994,
+        "longitude": 117.597086
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telosvoyager.io:9876",
+      "api_endpoint": "",
+      "ssl_endpoint": "",
+      "bnet_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "Los Angeles, CA",
+        "country": "US",
+        "latitude": 34.105994,
+        "longitude": 117.597086
+      },
+      "node_type": "producer",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    }
+  ]
+}

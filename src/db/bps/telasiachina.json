@@ -1,0 +1,66 @@
+{
+	"producer_account_name": "telasiachina",
+	"producer_public_key": "Key: EOS5Dpj5XmKpyQswNSyTZEgGuUFS2rVabagBAbGJCnKmC3ECinbCX",
+	"org": {
+		"candidate_name": "Telos China",
+		"website": "https://www.telasiachina.com",
+		"code_of_conduct": "https://m.weibo.cn/status/4318986890272609?",
+		"ownership_disclosure": "https://m.weibo.cn/status/4318433740592626",
+		"email": "179127249@qq.com",
+		"phone": "+8615049133536",
+		"branding": {
+			"logo_256": "https://www.telasiachina.com/images/logo_256.png",
+			"logo_1024": "https://www.telasiachina.com/images/logo_1024.png"
+		},
+		"location": {
+			"name": "HongKong",
+			"country": "CN",
+			"latitude": "22.15",
+			"longitude": "114.15"
+		},
+		"social": {
+			"steemit": "",
+			"twitter": "",
+			"youtube": "",
+			"facebook": "",
+			"github": "",
+			"reddit": "",
+			"keybase": "",
+			"telegram": "@telasiachina",
+			"wechat": "nmg006"
+		}
+	},
+	"nodes": [{
+			"location": {
+				"name": "HongKong",
+				"country": "CN",
+				"latitude": "22.43568",
+				"longitude": "114.161663"
+			},
+			"node_type": "mainnet",
+			"p2p_endpoint": "mainnet.telasiachina.com:9876",
+			"api_endpoint": "mainnet.telasiachina.com:8889"
+
+		},
+		{
+			"location": {
+				"name": "HongKong",
+				"country": "CN",
+				"latitude": "22.43568",
+				"longitude": "114.161663"
+			},
+			"node_type": "seed"
+		},
+		{
+			"location": {
+				"name": "HongKong",
+				"country": "CN",
+				"latitude": "22.43568",
+				"longitude": "114.161663"
+			},
+			"node_type": "testnet",
+			"p2p_endpoint": "testnet.telasiachina.com:9876",
+			"api_endpoint": "testnet.telasiachina.com:8889"
+		}
+	]
+}

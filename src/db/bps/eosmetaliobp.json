@@ -1,0 +1,62 @@
+{
+  "producer_account_name": "eosmetaliobp",
+  "org": {
+    "candidate_name": "EOSMetal",
+    "website": "https://eosmetal.io",
+    "email": "info@eosmetal.io",
+	"phone": "tf-registry",
+    "ownership_disclosure": "https://steemit.com/eos/@eosmetal/eosmetal-ownership-disclosure",
+    "code_of_conduct": "https://steemit.com/eos/@eosmetal/eosmetal-code-of-conduct",
+    "branding":{
+      "logo_256":"https://eosmetal.io/img/logo-256.png",
+      "logo_1024":"https://eosmetal.io/img/logo-1024.png",
+      "logo_svg":"https://eosmetal.io/img/logo-1024.svg"
+    },
+    "location": {
+      "name": "Spain",
+      "country": "ES",
+      "latitude": 39.46975,
+      "longitude": -0.37739
+    },
+    "social": {
+      "steemit": "eosmetal",
+      "twitter": "@eosmetal",
+      "github": "eosmetal",
+      "medium": "@EosMetal",
+      "telegram": "https://t.me/EOSMetal"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Spain",
+        "country": "ES",
+        "latitude": 39.46975,
+      	"longitude": -0.37739
+      },
+      "node_type": "full",
+      "api_endpoint": "http://telosapi.eosmetal.io",
+      "ssl_endpoint": "https://telosapi.eosmetal.io"
+    },
+    {
+      "location": {
+        "name": "Spain",
+        "country": "ES",
+        "latitude": 39.46975,
+      	"longitude": -0.37739
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "94.130.135.208:29877"
+    },
+    {
+      "location": {
+        "name": "Spain",
+        "country": "ES",
+        "latitude": 39.46975,
+      	"longitude": -0.37739
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "193.16.216.171:29877"
+    }
+  ]
+}

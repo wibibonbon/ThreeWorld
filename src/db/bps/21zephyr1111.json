@@ -1,0 +1,54 @@
+{
+  "producer_account_name": "21zephyr1111",
+  "producer_public_key": "Key: EOS84cTSUERQTgPEUwFd3ekZadSpM78ZWLPjDt9pTANRHDCCvQLGF",
+  "org": {
+    "candidate_name": "Telos-21Zephyr",
+    "website": "https://telos-21zephyr.com/",
+    "code_of_conduct": "https://medium.com/@telos21zephyr/telos-21zephyr-code-of-cad284970639",
+    "ownership_disclosure": "https://medium.com/@telos21zephyr/telos-21zephyr-ownership-disclosure-eddeaa7f9966",
+    "email": "bhargav@21zephyr.io",
+    "phone": "TF Registry",
+    "branding": {
+      "logo_256": "https://telos-21zephyr.com/images/Telos-21Zephyr-logo_256x256.png",
+      "logo_1024": "https://telos-21zephyr.com/images/telos-21zephyr-logo_1024x1024.png",
+      "logo_svg": "https://telos-21zephyr.com/images/telos-21zephyr-logo_128x128.svg"
+    },
+    "location": {
+      "name": "Champaign",
+      "country": "US",
+      "latitude": 40.116329,
+      "longitude": -88.243523
+    },
+    "social": {
+      "steemit": "telos21zephyr",
+      "twitter": "T21Zephyr",
+      "youtube": "Telos-21Zephyr",
+      "facebook": "telos21zephyr",
+      "keybase": "21zephyr1111",
+      "telegram": "telos-21Zephyr",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Ohio",
+        "country": "US",
+        "latitude": 40.417286,
+        "longitude": -82.907120
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telos-21zephyr.com:9876"
+    },
+    {
+      "location": {
+        "name": "Ohio",
+        "country": "US",
+        "latitude": 40.417286,
+        "longitude": -82.907120
+      },
+      "node_type": "full",
+      "api_endpoint": "https://api.telos-21zephyr.com:8888"
+    }
+  ]
+}

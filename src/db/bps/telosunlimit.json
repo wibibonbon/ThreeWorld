@@ -1,0 +1,66 @@
+{
+  "producer_account_name": "telosunlimit",
+  "producer_public_key": "Key: EOS7yCZxzJqVb1AS2UdtnADXvz3BjQGuoCHC5w46QxxHffrcPMDNj",
+  "org": {
+    "candidate_name": "Telos Unlimited",
+    "website": "https://telosunlimited.io/",
+    "code_of_conduct": "https://telosunlimited.io/ownership-disclosure-and-code-of-conduct/",
+    "ownership_disclosure": "https://telosunlimited.io/ownership-disclosure-and-code-of-conduct/",
+    "phone":"1-866-875-7004",
+    "email": "contact@telosunlimited.io",
+    "branding": {
+      "logo_256": "https://telosunlimited.io/images/logo_256x256.png",
+      "logo_1024": "https://telosunlimited.io/images/logo_1024x1024.png",
+      "logo_svg": "https://telosunlimited.io/images/logo_128x128.svg"
+    },
+    "location": {
+      "name": "Calgary",
+      "country": "CA",
+      "latitude": 51.0461914,
+      "longitude": -114.073037
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "https://twitter.com/telosunlimited",
+      "youtube": "", 
+      "facebook": "",
+      "github": "",
+      "reddit": "",
+      "keybase": "telosunlimited",
+      "telegram": "telosunlimited",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+      "name": "Calgary",
+      "country": "CA",
+      "latitude": 51.0461914,
+      "longitude": -114.073037
+    },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+      "name": "Calgary",
+      "country": "CA",
+      "latitude": 51.108915,
+      "longitude": -114.169486
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telosunlimited.io:9876"
+    },
+    {
+      "location": {
+      "name": "Calgary",
+      "country": "CA",
+      "latitude": 51.0461914,
+      "longitude": -114.073037
+      },
+      "node_type": "full",
+      "api_endpoint": "http://api.telosunlimited.io/",
+      "ssl_endpoint": "https://api.telosunlimited.io/"
+    }
+  ]
+}

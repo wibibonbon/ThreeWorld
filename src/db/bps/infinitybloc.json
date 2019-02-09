@@ -1,0 +1,74 @@
+{
+  "producer_account_name": "infinitybloc",
+  "org": {
+    "candidate_name": "infinitybloc",
+    "website": "https://infinitybloc.io",
+    "code_of_conduct":"https://infinitybloc.io/code_of_conduct",
+    "ownership_disclosure":"https://infinitybloc.io/team",
+    "email":"justin@infinitybloc.io",
+    "phone":"+1 209 227 0514, +1 415 321 0876",
+    "branding":{
+      "logo_256":"https://telos.infinitybloc.io/infinity-logo-black-256.png",
+      "logo_1024":"https://telos.infinitybloc.io/infinity-logo-black-1024.png",
+      "logo_svg":"https://telos.infinitybloc.io/infinity-logo-black.svg"
+    },
+    "location": {
+      "name": "Starfish Mission",
+      "country": "US",
+      "latitude": 37.7737223,
+      "longitude": -122.4175317
+    },
+    "social": {
+      "steemit": "infinitybloc",
+      "twitter": "infinitybloc",
+      "youtube": "UCy-XgDZUKGBHFu4G8hFg2AA",
+      "facebook": "infinity.bloc",
+      "github":"infinitybloc",
+      "reddit": "infinitybloc",
+      "keybase": "infinitybloc",
+      "telegram": "infinitybloc",
+      "wechat":"infinitybloc"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "bp-telos",
+        "country": "US",
+        "latitude": 37.4030,
+        "longitude": -122.1811
+      },
+      "node_type": "producer",
+      "p2p_endpoint": "",
+      "bnet_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "api-telos",
+        "country": "JP",
+        "latitude": 35.6895,
+        "longitude": 139.6917
+      },
+      "node_type": "full node",
+      "p2p_endpoint": "",
+      "bnet_endpoint": "",
+      "api_endpoint": "https://api-telos.infinitybloc.io",
+      "ssl_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "seed-telos",
+        "country": "DE",
+        "latitude": 50.1109,
+        "longitude": 9.6821
+      },
+      "node_type":"seed",
+      "p2p_endpoint": "http://p2p-telos.infinitybloc.io:9877",
+      "bnet_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    }
+  ]
+}

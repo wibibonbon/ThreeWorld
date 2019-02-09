@@ -1,0 +1,56 @@
+{
+ "producer_account_name": "teleclipse24",
+ "producer_public_key": "EOS8Mr8bWmY4uBZ5NzcGMJwqxkEKEf4EstqfzvCj6UVYeTv7Pmyo5",
+ "org": {
+  "candidate_name": "Telos Eclipse 24",
+  "website": "https://telos.eclipse24.io",
+  "code_of_conduct": "https://telos.eclipse24.io/code.html",
+  "ownership_disclosure": "https://telos.eclipse24.io/ownership.html",
+  "email": "admin@eclipse24.io",
+  "phone_number": "TF_registry",
+  "branding": {
+   "logo_256": "https://telos.eclipse24.io/images/logo256.png",
+   "logo_1024": "https://telos.eclipse24.io/images/logo2.png",
+   "logo_svg": ""
+  },
+  "location": {
+  "name": "United Kingdom",
+   "country": "GB",
+   "latitude": 52.7250426,
+   "longitude": 1.3764548
+  },
+  "social": {
+   "steemit": "stapes",
+   "twitter": "eclipse24BP",
+   "youtube": "",
+   "facebook": "",
+   "github": "",
+   "reddit": "",
+   "keybase": "",
+   "telegram": "bpeclipse24",
+   "wechat": ""
+  }
+ },
+ "nodes": [{
+   "location": {
+    "name": "United Kingdon",
+    "country": "GB",
+    "latitude": 52.7123388,
+    "longitude": -1.3819187
+   },
+   "node_type": "full",
+   "api_endpoint": "http://api.telos.eclipse24.io:8888",
+   "ssl_endpoint": "https://api.telos.eclipse24.io:8000/",
+   "p2p_endpoint": "node.telos.eclipse24.io:9876"
+  },
+  {
+   "location": {
+    "name": "United Kingdon",
+    "country": "GB",
+    "latitude": 52.7123388,
+    "longitude": -1.3819187
+   },
+   "node_type": "producer"
+  }
+ ]
+}

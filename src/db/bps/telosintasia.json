@@ -1,0 +1,70 @@
+{
+  "producer_account_name": "telosintasia",
+  "producer_public_key": "EOS5ha1vtA7nG4vzU4NjTkTUhZAEmQUnF2gjshg1qgPoWkXK9sPbe",
+  "org": {
+    "candidate_name": "telosintasia",
+    "website": "https://ikuwara.com/",
+    "code_of_conduct": "https://www.reddit.com/user/ikuwara/comments/a56xfb/telos_foundation_telosintasia_code_of_conduct",
+    "ownership_disclosure": "https://www.reddit.com/user/ikuwara/comments/a576qj/telos_foundation_telosintasia_ownership",
+    "email": "ikuwara@gmail.com",
+    "phone": "+60149991688",
+    "branding": {
+      "logo_256": "https://ikuwara.com/sites/default/files/telosintasia256.png",
+      "logo_1024": "https://ikuwara.com/sites/default/files/telosintasia.png"
+    },
+    "location": {
+      "name": "Kuching",
+      "country": "MY",
+      "latitude": 1.5535,
+      "longitude": 110.3593
+    },
+
+    "owner": {
+	    "name_owner":"Ikuwara Naga","percentage":"100"
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "",
+      "youtube": "",
+      "facebook": "",
+      "github": "ikuwara",
+      "reddit": "https://www.reddit.com/user/ikuwara",
+      "keybase": "",
+      "telegram": "xtendtation",
+      "wechat": "ikuwara"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Singapore",
+        "country": "SG",
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "node_type": "mainnet",
+      "p2p_endpoint": "telosseed.ikuwara.com:9876",
+      "api_endpoint": "https://telosseed.ikuwara.com:8889/v1/chain/get_info"
+    },
+    {
+      "location": {
+        "name": "Singapore",
+        "country": "SG",
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "node_type": "testnet",
+      "p2p_endpoint": "telostestnet.ikuwara.com:9876",
+      "api_endpoint": "https://telostestnet.ikuwara.com:8889/v1/chain/get_info"
+    },
+    {
+      "location": {
+        "name": "Singapore",
+        "country": "SG",
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "node_type": "full"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "producer_account_name": "theteloscope",
+  "producer_public_key": "EOS5AUGHMZqpcSwTQY2fMDrUS38j2FmbiKbTQmXAoQbtuAC6JyZcq",
+  "org": {
+    "candidate_name": "The Teloscope",
+    "website": "https://theteloscope.io",
+    "ownership_disclosure": "https://github.com/theteloscope/theteloscope-web/tree/master/transparency/ownershipdisclosure",
+    "code_of_conduct": "https://github.com/theteloscope/theteloscope-web/tree/master/transparency/codeofconduct",
+    "email": "support@theteloscope.io",
+    "phone":"TF Registry",
+    "branding": {
+      "logo_256": "https://theteloscope.io/img/teloscope-logo-256.png",
+      "logo_1024": "https://theteloscope.io/img/teloscope-logo-1024.png",
+      "logo_svg": "https://theteloscope.io/img/teloscope-logo.svg"
+    },
+    "location": {
+      "name": "Asturias",
+      "country": "ES",
+      "latitude": "43.53",
+      "longitude": "-5.67"
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "TheTeloscope",
+      "youtube": "theteloscope",
+      "facebook": "",
+      "github": "theteloscope",
+      "reddit": "theteloscope",
+      "keybase": "",
+      "telegram": "TheTeloscope",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Asturias",
+        "country": "ES",
+        "latitude": "43.53",
+        "longitude": "-5.67"
+      },
+      "node_type": "full",
+      "p2p_endpoint": "",
+      "api_endpoint": "https://api.theteloscope.io",
+      "ssl_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "Asturias",
+        "country": "ES",
+        "latitude": "43.53",
+        "longitude": "-5.67"
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.theteloscope.io:9876",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "Asturias",
+        "country": "ES",
+        "latitude": "43.53",
+        "longitude": "-5.67"
+      },
+      "node_type": "producer",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    }
+  ]
+}

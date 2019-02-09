@@ -1,0 +1,48 @@
+{
+  "producer_account_name": "tlsvancouver",
+  "producer_public_key": "Key: EOS5DmKj3dTsi9vzoMqcwMKzkDpnq7RLSVkmCCkQXRfAjVCFWQy8e",
+  "org": {
+    "candidate_name": "Telos Vancouver",
+    "website": "https://telosvancouver.io",
+    "code_of_conduct":"",
+    "ownership_disclosure":"https://telosvancouver.io/ownership/",
+    "email":"contact@telosvancouver.io",
+    "phone":"TF Registry",
+    "branding": {
+      "logo_256":"https://telosvancouver.io/images/telosvancouver-logo-256px.png",
+      "logo_1024":"https://telosvancouver.io/images/telosvancouver-logo-256px.png",
+	  "logo_svg":""
+    },
+    "location": {
+      "name": "Vancouver",
+      "country": "CA",
+      "latitude": 49.284735,
+      "longitude": -123.111907
+    },
+    "social": {
+      "twitter": "TelosVancouver",
+      "github":"https://github.com/TelosVancouver"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Vancouver",
+        "country": "CA",
+        "latitude": 49.284735,
+        "longitude": -123.111907
+      },
+      "p2p_endpoint": "p2p.telosvancouver.io:9876",
+      "api_endpoint": "https://api.telosvancouver.io:7777"
+    },
+    {
+      "location": {
+        "name": "Vancouver",
+        "country": "CA",
+        "latitude": 49.284735,
+        "longitude": -123.111907
+      },
+      "is_producer": true
+    }
+  ]
+}

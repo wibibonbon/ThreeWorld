@@ -1,0 +1,71 @@
+{
+  "producer_account_name": "eosiodetroit",
+  "org": {
+    "candidate_name": "EOSDetroit",
+    "website": "https://eosdetroit.io",
+    "ownership_disclosure": "https://eosdetroit.io/block-producer/transparency",
+    "code_of_conduct": "https://steemit.com/eos/@eos.detroit/eos-detroit-membership-guidelines",
+    "email": "ask@eosdetroit.io",
+    "branding": {
+      "logo_256": "https://eosdetroit.io/images/eos-detroit_256.png",
+      "logo_1024": "https://eosdetroit.io/images/eos-detroit_1024.png",
+      "logo_svg": "https://eosdetroit.io/images/eos-detroit.svg"
+    },
+    "location": {
+      "name": "Detroit",
+      "country": "US",
+      "latitude": 42.3314,
+      "longitude": -83.0458
+    },
+    "social": {
+      "steemit": "eos.detroit",
+      "twitter": "eosiodetroit",
+      "youtube": "eosdetroit",
+      "facebook": "eosiodetroit",
+      "github": "eosdetroit",
+      "reddit": "eosdetroit",
+      "keybase": "eosiodetroit",
+      "telegram": "eos_detroit",
+      "wechat": "EOS_Detroit"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "EOSDetroitAPI",
+        "country": "US",
+        "latitude": 39.9612,
+        "longitude": -82.9988
+      },
+      "node_type": "full",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": "https://api.eosdetroit.io"
+    },
+    {
+      "location": {
+        "name": "EOSDetroitNP1",
+        "country": "US",
+        "latitude": 39.9612,
+        "longitude": -82.9988
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.eosdetroit.io:3018",
+      "api_endpoint": "",
+      "ssl_endpoint": "",
+      "bnet_endpoint": "p2p.eosdetroit.io:3019"
+    },
+    {
+      "location": {
+        "name": "EOSDetroitBP1",
+        "country": "US",
+        "latitude": 39.9612,
+        "longitude": -82.9988
+      },
+      "node_type": "producer",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    }
+  ]
+}

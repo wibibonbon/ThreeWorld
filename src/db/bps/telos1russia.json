@@ -1,0 +1,62 @@
+{
+  "producer_account_name": "telos1russia",
+  "producer_public_key": "EOS7ETnqeJ6vBmv9KVcttAn1opy8joQUpMSFbVbc3QDHLhdAGuqFD",
+  "org": {
+    "candidate_name": "Telos Russia",
+    "website": "https://telosrussia.io",
+    "code_of_conduct": "https://telosrussia.io#coc",
+    "ownership_disclosure": "https://telosrussia.io#ownership",
+    "email": "hello@telosrussia.io",
+    "phone":"TF_registry",
+    "branding": {
+      "logo_256": "https://telosrussia.io/images/logo_256x256.png",
+      "logo_1024": "",
+      "logo_svg": ""
+    },
+    "location": {
+      "country": "RU",
+      "latitude": 55.751244,
+      "longitude": 37.618423
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "telosrussia",
+      "youtube": "",
+      "facebook": "",
+      "github": "",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "country": "FR",
+        "latitude": 50.987070,
+        "longitude": 2.125537
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "country": "FR",
+        "latitude": 50.987070,
+        "longitude": 2.125537
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telosrussia.io:9876"
+    },
+    {
+      "location": {
+        "country": "FR",
+        "latitude": 48.573405,
+        "longitude": 7.752111
+      },
+      "node_type": "full",
+      "api_endpoint": "https://api.telosrussia.io:8888",
+      "ssl_endpoint": "https://api.telosrussia.io:8888"
+    }
+  ]
+}

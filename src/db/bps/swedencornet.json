@@ -1,0 +1,88 @@
+{
+  "producer_account_name": "swedencornet",
+  "producer_public_key": "EOS6SveKXRJ49ydJV9EemBFomCLb2B8rM5utvMs6nuqwWPBRWafia",
+  "org": {
+    "candidate_name": "EOS/Telos Sweden (Core Net)",
+    "website": "https://eossweden.eu/telos",
+    "code_of_conduct": "https://eossweden.eu/core-values",
+    "ownership_disclosure": "https://eossweden.eu/team",
+    "email": "eossweden@gmail.com",
+    "phone":"TF Registry",
+    "branding": {
+      "logo_256": "https://eossweden.eu/logo/swedencornet-logo-256.jpg",
+      "logo_1024": "https://eossweden.eu/logo/swedencornet-logo-1024.jpg",
+      "logo_svg": "https://eossweden.eu/logo/swedencornet-logo.svg"
+    },
+    "location": {
+      "name": "Stockholm",
+      "country": "SE",
+       "latitude": 59.6268,
+       "longitude": 17.9442475
+    },
+    "social": {
+      "steemit": "eos.sweden",
+      "twitter": "swedeneos",
+      "youtube": "UC6GwuAAhLBI8gcvljKr_Diw",
+      "facebook": "cryptpoint",
+      "github": "eossweden",
+      "reddit": "",
+      "keybase": "eossweden1",
+      "telegram": "eossweden1",
+      "wechat": "",
+      "github":"https://github.com/eossweden"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "South Carolina",
+        "country": "USA",
+         "latitude": 33.8361,
+         "longitude": 81.1637
+      },
+      "node_type": "API",
+      "api_endpoint": "http://telos.eossweden.eu",
+      "ssl_endpoint": "https://telos.eossweden.eu"
+    },
+    {
+      "location": {
+        "name": "Ireland",
+        "country": "IE",
+         "latitude": 53.3498,
+         "longitude": 6.2603
+      },
+      "node_type": "API",
+      "api_endpoint": "http://testnet.telos.eossweden.eu",
+      "ssl_endpoint": "https://testnet.telos.eossweden.eu"
+    },
+    {
+      "location": {
+        "name": "South Carolina",
+        "country": "USA",
+         "latitude": 33.8361,
+         "longitude": 81.1637
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "telosp2p.eossweden.eu:8012"
+    },
+    {
+      "location": {
+        "name": "Ireland",
+        "country": "IE",
+         "latitude": 53.3498,
+         "longitude": 6.2603
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "testnet.telos.eossweden.eu:8022"
+    },
+    {
+      "location": {
+        "name": "Frankfurt",
+        "country": "DE",
+         "latitude": 50.1109,
+         "longitude": 8.6821
+      },
+      "node_type": "producer"
+    }
+  ]
+}
