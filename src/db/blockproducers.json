@@ -1,30 +1,57 @@
 [
   ["21zephyr1111",[0.0,0.0,0]],
+  ["beyondbtctls",[0.0,0.0,0]],
 
   ["bigironbptex",[0.0,0.0,0]],
   ["blindblocart",[0.0,0.0,0]],
+  ["blockchained",[59.9343,30.3351,1]],
+
+  ["bpeosindexio",[0.0,0.0,0]],
+
   ["caleosblocks",[0.0,0.0,0]],
+  ["cryptosuviio",[0.0,0.0,0]],
+
   ["csxcommunity",[0.0,0.0,0]],
+  ["eosawakeiobp",[0.0,0.0,0]],
 
   ["eosbarcelona",[0.0,0.0,0]],
+  ["eosgermanybp",[51.9607,7.6261,1]],
 
   ["eosiodetroit",[0.0,0.0,0]],
   ["eosmetaliobp",[0.0,0.0,0]],
+  ["eosnigeriago",[6.465422,3.406448,1]],
+
+  ["eosphereiobp",[0.0,0.0,0]],
+
+  ["eossandiego1",[0.0,0.0,0]],
+  ["eosvenezuela",[0.0,0.0,0]],
+  ["eosvibesbloc",[0.0,0.0,0]],
 
   ["goodblocktls",[0.0,0.0,0]],
   ["infinitybloc",[0.0,0.0,0]],
+  ["jijiplannode",[-1.2833,36.8219,1]],
 
   ["kainosblkpro",[0.0,0.0,0]],
   ["octagontelos",[0.0,0.0,0]],
+  ["sanfranc1sco",[-18.857952,-159.785278,1]],
 
   ["swedencornet",[0.0,0.0,0]],
-  ["telgoingosbp",[0.0,0.0,0]],
+  ["telasiachina",[22.15,114.15,1]],
+  ["teleclipse24",[0.0,0.0,0]],
+
+  ["telgoingosbp",[40.80390,111.66912,1]],
 
   ["telos1russia",[0.0,0.0,0]],
+  ["telosarabia1",[0.0,0.0,0]],
+
   ["teloscantons",[0.0,0.0,0]],
+  ["teloscentral",[0.0,0.0,0]],
 
   ["telosdacnode",[0.0,0.0,0]],
   ["telosintasia",[0.0,0.0,0]],
+  ["telosgermany",[0.0,0.0,0]],
+
+  ["telosghanago",[-1.0307118, 7.9527706,1]],
 
   ["telosglobal1",[0.0,0.0,0]],
 
@@ -35,6 +62,8 @@
   ["telosnewyork",[0.0,0.0,0]],
 
   ["telosuknodes",[0.0,0.0,0]],
+  ["telosunlimit",[0.0,0.0,0]],
+
   ["telosvoyager",[0.0,0.0,0]],
   ["theteloscope",[0.0,0.0,0]],
 
@@ -42,23 +71,9 @@
 
   ["tlsvancouver",[0.0,0.0,0]],
   ["tlsvenezuela",[0.0,0.0,0]],
+  ["tokenika4tls",[52.2,21.0,1]],
 
-  ["votedutcheos",[0.0,0.0,0]],
+  ["votedutcheos",[0.0,0.0,0]]
 
-  ["telosgermany",[37.7749,122.4194,0]],
-  ["teloscentral",[37.7749,122.4194,0]],
-  ["telasiachina",[37.7749,122.4194,0]],
-  ["eossandiego1",[37.7749,122.4194,0]],
-  ["eosphereiobp",[37.7749,122.4194,0]],
-  ["bpeosindexio",[37.7749,122.4194,0]],
-  ["telosunlimit",[37.7749,122.4194,0]],
-  ["eosvenezuela",[37.7749,122.4194,0]],
-  ["eosawakeiobp",[37.7749,122.4194,0]],
-  ["cryptosuviio",[37.7749,122.4194,0]],
-  ["jijiplannode",[37.7749,122.4194,0]],
-  ["teleclipse24",[37.7749,122.4194,0]],
-  ["beyondbtctls",[37.7749,122.4194,0]],
-  ["eosvibesbloc",[37.7749,122.4194,0]],
-  ["telosarabia1",[0.0,0.0,0]]
 
 ]

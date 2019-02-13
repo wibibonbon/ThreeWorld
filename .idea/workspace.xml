@@ -2,12 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="574e6c9f-b38c-4a83-a9d7-a6f3be14c512" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/21zephyr1111.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/atticlabtlbp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/beyondbtctls.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/bigironbptex.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/blindblocart.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/blockchained.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/bpeosindexio.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/caleosblocks.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/cryptosuviio.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/csxcommunity.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosbarcelona.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosdublinwow.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eoseoseosza1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosgermanybp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosiodetroit.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosmetaliobp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosnairobike.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosnigeriago.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosphereiobp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eossandiego1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eostribeprod.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosvenezuela.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/eosvibesbloc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/goodblocktls.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/infinitybloc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/jijiplannode.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/kainosblkpro.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/nebulablocks.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/octagontelos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/sanfranc1sco.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/swedencornet.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telasiachina.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telawakeiobp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/teleclipse24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telgoingosbp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telos1russia.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosafrica1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosarabia1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/teloscantons.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/teloscentral.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosdacnode.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosgermany.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosghanago.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosglobal1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosgreenbp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosintasia.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosmadrid1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosmiamibp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosnewyork.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosuknodes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosunlimit.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/telosvoyager.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/theteloscope.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/tlosimperabp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/tlsvancouver.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/tlsvenezuela.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/db/bps/votedutcheos.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/selectedBpInfo.css" afterPath="$PROJECT_DIR$/src/components/selectedBpInfo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/selectedBpInfo.js" afterPath="$PROJECT_DIR$/src/components/selectedBpInfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db/blockproducers.json" afterPath="$PROJECT_DIR$/src/db/blockproducers.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db/population.json" afterPath="$PROJECT_DIR$/src/db/population.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/playgrounds/interactiveWorld.js" afterPath="$PROJECT_DIR$/src/playgrounds/interactiveWorld.js" />
     </list>
@@ -23,58 +82,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="interactiveWorld.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/playgrounds/interactiveWorld.js">
+      <file leaf-file-name="ServerSocket.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServerSocket.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1165">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectedBpInfo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/selectedBpInfo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="663">
+              <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serviceWorker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectedBpInfo.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/selectedBpInfo.js">
+      <file leaf-file-name="CORSHttpServer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CORSHttpServer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interactiveWorld.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/playgrounds/interactiveWorld.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="196" column="20" lean-forward="false" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outline.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/outline.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="earth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/earth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="greyscale.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/greyscale.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchoServer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EchoServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="21zephyr1111.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db/bps/21zephyr1111.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,16 +179,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>function OB</find>
-      <find>THRE</find>
-      <find>object_pattern</find>
       <find>url</find>
       <find>setpath</find>
       <find>onLoad</find>
@@ -121,6 +213,9 @@
       <find>onMouseDown</find>
       <find>start</find>
       <find>rotate</find>
+      <find>render</find>
+      <find>windo</find>
+      <find>config.js</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,7 +237,6 @@
         <option value="$PROJECT_DIR$/node_modules/three/build/three.modules.js" />
         <option value="$PROJECT_DIR$/src/playgrounds/Cache.js" />
         <option value="$PROJECT_DIR$/src/playgrounds/XHRLoader.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/playgrounds/OBJLoader.js" />
         <option value="$PROJECT_DIR$/src/three/OBJLoader.js" />
         <option value="$PROJECT_DIR$/src/three/OBJLoaderNew.js" />
@@ -154,21 +248,29 @@
         <option value="$PROJECT_DIR$/src/shaders/atmosphere.js" />
         <option value="$PROJECT_DIR$/src/playgrounds/watercolor.js" />
         <option value="$PROJECT_DIR$/src/db/bars.json" />
-        <option value="$PROJECT_DIR$/src/db/blockproducers.json" />
         <option value="$PROJECT_DIR$/src/db/test.json" />
         <option value="$PROJECT_DIR$/src/playgrounds/world.js" />
         <option value="$PROJECT_DIR$/src/db/population_simple.json" />
         <option value="$PROJECT_DIR$/src/modules/selectedBpInfo.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/db/bpDetails.json" />
         <option value="$PROJECT_DIR$/src/tools/TrackballControls.js" />
         <option value="$PROJECT_DIR$/src/tools/OrbitControls.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/playgrounds/interactiveWorld.js" />
-        <option value="$PROJECT_DIR$/src/components/selectedBpInfo.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/selectedBpInfo.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/selectedBpInfo.css" />
+        <option value="$PROJECT_DIR$/src/db/blockproducers.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/EchoServer.py" />
+        <option value="$PROJECT_DIR$/src/db/bps/telgoingosbp.json" />
+        <option value="$PROJECT_DIR$/CORSHttpServer.py" />
+        <option value="$PROJECT_DIR$/ServerSocket.py" />
+        <option value="$PROJECT_DIR$/src/db/population.json" />
+        <option value="$PROJECT_DIR$/src/shaders/bp.js" />
+        <option value="$PROJECT_DIR$/src/shaders/outline.js" />
+        <option value="$PROJECT_DIR$/src/playgrounds/interactiveWorld.js" />
       </list>
     </option>
   </component>
@@ -184,8 +286,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="892" />
+    <option name="width" value="1035" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -207,7 +309,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,30 +319,36 @@
             <path>
               <item name="ThreeWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThreeWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThreeWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThreeWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThreeWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThreeWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThreeWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThreeWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="shaders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-three-renderer-example" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -250,16 +357,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Source\ThreeWorld\src" />
-      <recent name="D:\Source\demos\src\three" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Source\ThreeWorld" />
+      <recent name="D:\Source\ThreeWorld\public" />
       <recent name="D:\Source\ThreeWorld\src\tools" />
       <recent name="D:\Source\demos\src\db" />
       <recent name="D:\Source\demos\src\playgrounds" />
-      <recent name="D:\Source\demos\src\shaders" />
-      <recent name="D:\Source\demos\static\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Source\ThreeWorld\src\db" />
+      <recent name="D:\Source\ThreeWorld\src" />
+      <recent name="D:\Source\demos\src\three" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,26 +414,43 @@
       <workItem from="1548128393346" duration="8664000" />
       <workItem from="1548137906271" duration="7911000" />
       <workItem from="1548308428105" duration="3601000" />
+      <workItem from="1548987660198" duration="9401000" />
+      <workItem from="1549331964578" duration="3529000" />
+      <workItem from="1549602791659" duration="3404000" />
+      <workItem from="1549673656014" duration="12275000" />
+      <workItem from="1549791205586" duration="1778000" />
+      <workItem from="1549865210648" duration="6400000" />
+      <workItem from="1549932832641" duration="11271000" />
+      <workItem from="1550020853943" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114292000" />
+    <option name="totallyTimeSpent" value="162626000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="892" y="0" width="1035" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24252136" sideWeight="0.4680851" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768305" sideWeight="0.46153846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2275641" sideWeight="0.5319149" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24252136" sideWeight="0.53846157" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -334,6 +459,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24252136" sideWeight="0.53846157" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768305" sideWeight="0.46153846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -348,60 +492,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/three/examples/js/loaders/MTLLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/three/examples/js/loaders/OBJLoader2.js" />
-    <entry file="file://$PROJECT_DIR$/../ezr/static/js/loaders/OBJLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="402" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/playgrounds/10.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/three/src/loaders/AnimationLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/three/OBJLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/media/bunny.267725ab.obj" />
-    <entry file="file://$PROJECT_DIR$/src/three/OBJLoaderNew.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="324" column="44" lean-forward="false" selection-start-line="324" selection-start-column="44" selection-end-line="324" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/playgrounds/02.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/three/examples/js/loaders/OBJLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="758" column="46" lean-forward="false" selection-start-line="758" selection-start-column="46" selection-end-line="758" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/playgrounds/01.js" />
-    <entry file="file://$PROJECT_DIR$/src/playgrounds/objloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/playgrounds/04.js" />
     <entry file="file://$PROJECT_DIR$/src/tools/ShaderManager.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -446,13 +536,6 @@
     <entry file="file://$PROJECT_DIR$/src/shaders/copy.js" />
     <entry file="file://$PROJECT_DIR$/src/playgrounds/06.js" />
     <entry file="file://$PROJECT_DIR$/src/db/globe.js" />
-    <entry file="file://$PROJECT_DIR$/src/db/population.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="0" column="1869" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="1869" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/playgrounds/watercolor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -493,13 +576,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shaders/earth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shaders/atmosphere.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -528,25 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/playgrounds/world.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="161" column="14" lean-forward="false" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/blockproducers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -559,21 +620,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tools/OrbitControls.js" />
     <entry file="file://$PROJECT_DIR$/src/tools/TrackballControls.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/selectedBpInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -581,44 +631,155 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/selectedBpInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/blockproducers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/bps/goodblocktls.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webpack/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/bps/21zephyr1111.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EchoServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/bps/telawakeiobp.json" />
+    <entry file="file://$PROJECT_DIR$/src/db/bps/telgoingosbp.json" />
+    <entry file="file://$PROJECT_DIR$/src/db/bps/teleclipse24.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORSHttpServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/population.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/greyscale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/earth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServerSocket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/outline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/playgrounds/interactiveWorld.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1165">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="196" column="20" lean-forward="false" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/selectedBpInfo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/selectedBpInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

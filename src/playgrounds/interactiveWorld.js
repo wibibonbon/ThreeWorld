@@ -6,7 +6,11 @@ import {
 } from 'three'
 import * as THREE from 'three'
 import TrackballControls from 'three-trackballcontrols'
+import * as OrbitControls from 'three-orbit-controls'
+import * as PP from 'postprocessing'
 import * as EarthShader from '../shaders/earth'
+import * as BpShader from '../shaders/outline'
+
 import * as ATMShader from '../shaders/atmosphere'
 import bars from '../db/blockproducers.json'
 
@@ -30,6 +34,8 @@ class Playground extends Component{
             })
         }
 
+
+
         this.mouse = new THREE.Vector2();
         this.raycaster = new THREE.Raycaster();
         var offset = new THREE.Vector3(10, 10, 10);
@@ -43,8 +49,6 @@ class Playground extends Component{
         this.groupOfPoints = new THREE.Group();
         // Make a scene, add the camera to it
         this.scene = new Scene()
-        //this.scene.add(this.camera)
-
 
 
         // Add a cube by making the shape, and the material,
@@ -70,6 +74,15 @@ class Playground extends Component{
             blending: AdditiveBlending,
             transparent: true
         })
+
+
+        this.activeBpMat = new ShaderMaterial({
+            vertexShader: BpShader.vertexShader,
+            fragmentShader: BpShader.fragmentShader,
+            uniforms: BpShader.uniforms,
+        })
+
+
         this.sphere = new Mesh(geometry, mat)
         this.sphere.rotation.y = Math.PI;
         this.sphereOut = new Mesh(geometry, mat2)
@@ -91,6 +104,7 @@ class Playground extends Component{
             this.addData(this.data[i][1], {name: this.data[i][0]});
         }
 
+        //this.outlinePass = new PP.OutlinePass(new THREE.Vector2(window.innerWidth, window.innerHeight), this.scene, this.camera);
 
 
 
@@ -101,18 +115,30 @@ class Playground extends Component{
     }
     componentDidMount(){
 
+
+        const result = fetch('http://localhost:8080').then(response => {
+            console.log('HERE HERE')
+            console.log(response)}).catch(error => console.log(error))
+
+        //const json = require('../db/bps/21zephyr1111.json');
+        console.log('HERE')
+        console.log(result);
+        console.log('HERE2')
+
+
+        //this.composer = new PP.EffectComposer(new THREE.WebGLRenderer());
+        //this.composer.addPass( new PP.RenderPass(this.scene, this.camera) );
         this.renderer= new THREE.WebGLRenderer({antialias: true})
-        // Update the renderer
-        //this.renderer = this.props.renderer
-        //this.renderer = renderer
         this.renderer.setClearColor(0x0000, 1)
         this.renderer.setSize(window.innerWidth, window.innerHeight)
         this.mount.appendChild(this.renderer.domElement)
-
+        //this.clock = new THREE.Clock()
         console.log(this.renderer.domElement)
         console.log(this.camera)
         // Add controls so you can navigate the scene
         this.controls = new TrackballControls(this.camera, this.renderer.domElement)
+        //this.controls = new OrbitControls(this.camera)
+        //this.controls.domElement = this.renderer.domElement
 
 
         // Resize things when the window resizes
@@ -143,8 +169,53 @@ class Playground extends Component{
 
         this.frameId = window.requestAnimationFrame(this.animate)
 
+
+
+
+
+
+        var raycaster = new THREE.Raycaster();
+        raycaster.setFromCamera(this.mouse, this.camera);
+        var intersects = raycaster.intersectObjects(this.pointCubes,true);
+        //console.log(this.scene.children)
+        var mat2 = new THREE.LineBasicMaterial( { color: 0xffff00, linewidth: 2 } );
+
+
+        if (intersects.length > 0) {
+            if ( intersects[ 0 ].object != this.intersected )
+            {
+            // if the closest object intersected is not the currently stored intersection object
+                {
+                    // restore previous intersection object (if it exists) to its original color
+                    if (this.intersected)
+                        this.intersected.material = this.intersected.currentMaterial;
+                    //store reference to closest object as current intersection object
+                    this.intersected = intersects[0].object;
+                    this.intersected.currentMaterial = this.intersected.material
+                    // set a new color for closest object
+                    this.intersected.material = this.activeBpMat;
+                    
+
+                    console.log("Intersected object:", intersects.length);
+                    //intersects[0].object.material.color.setHex(Math.random() * 0xffffff);
+                    //this.outlinePass.selectedObjects = intersects[0].object;
+
+
+                    //intersects[0].object.material = mat
+
+                    const selectedBpId = intersects[0].object.name;
+                    console.log(selectedBpId);
+
+                    this.props.onChangeSelectedBp(selectedBpId.name);
+                }
+
+            }
+        }
+
+
         this.controls.update()
         this.renderer.render(this.scene, this.camera)
+        //this.composer.render(this.clock.getDelta())
     }
 
 
@@ -237,22 +308,15 @@ class Playground extends Component{
 
     onMouseMove(event) {
         event.preventDefault();
-        var mouse = new THREE.Vector2();
-        mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
-        mouse.y = -( event.clientY / window.innerHeight ) * 2 + 1;
 
-        var raycaster = new THREE.Raycaster();
-        raycaster.setFromCamera(mouse, this.camera);
-        var intersects = raycaster.intersectObjects(this.pointCubes,true);
-        //console.log(this.scene.children)
-        if (intersects.length > 0) {
-            console.log("Intersected object:", intersects.length);
-            intersects[0].object.material.color.setHex(Math.random() * 0xffffff);
-            const selectedBpId = intersects[0].object.name;
-            console.log(selectedBpId);
 
-            this.props.onChangeSelectedBp(selectedBpId.name);
-        }
+
+        this.mouse = new THREE.Vector2();
+        this.mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+        this.mouse.y = -( event.clientY / window.innerHeight ) * 2 + 1;
+
+
+
 
     }
 
